@@ -1,6 +1,6 @@
 {
-  "version": "0.10.9",
-  "effective": { "version": "0.10.9", "date": "9 July 2026" },
+  "version": "0.11.0",
+  "effective": { "version": "0.11.0", "date": "15 July 2026" },
   "documents": [
     {
       "id": "privacy",
@@ -83,7 +83,7 @@
         { "type": "h3", "text": "Data retention" },
         { "type": "p", "text": "We keep data while your account is active and for as long as the feature it belongs to needs it. When you ask for deletion, we remove your data, with one narrow exception: records we are legally required to keep. In practice this means the billing and payment records needed under UK tax law, which requires companies to retain financial records for six years for HMRC. These are limited to the transaction records held through Stripe, are kept separate from your ordinary account and usage data, are used only to meet that legal obligation, and are deleted once the retention period ends. Short lived data, such as the mobile approval queue and security logs, expires automatically." },
         { "type": "h3", "text": "Children and younger users" },
-        { "type": "p", "text": "You must be at least 13 to hold a SparkStream account, or older if the law where you live sets a higher minimum. SparkStream is not intended for younger children, and we do not knowingly collect their personal data. If you believe a child under 13 has given us personal data, contact us and we will remove it. We also build in protections that help keep younger users, and everyone, safer: you choose whether to use direct messages at all, you can limit who is allowed to message you, including to your channel moderators only, or turn messaging off entirely, and screen content protection is on by default. Reporting tools and staff moderation back these up across the Community Hub." },
+        { "type": "p", "text": "You must be at least 16 to hold a SparkStream account, or older if the law where you live sets a higher minimum. SparkStream is not intended for children under this age, and we do not knowingly collect their personal data. If you believe a child under 16 has given us personal data, contact us and we will remove it. We also build in protections that help keep younger users, and everyone, safer: you choose whether to use direct messages at all, you can limit who is allowed to message you, including to your channel moderators only, or turn messaging off entirely, and screen content protection is on by default. Reporting tools and staff moderation back these up across the Community Hub." },
         { "type": "h3", "text": "Changes to this policy" },
         { "type": "p", "text": "If this policy changes in a meaningful way, you will be told clearly inside the app. Changes are never made quietly or buried in an unrelated update." },
         { "type": "note", "text": "This is a commitment, not fine print. If anything here is unclear, or you want to know exactly what is held about your account, open a support ticket and ask. The effective date and app version for this policy are shown at the top of this document." }
@@ -95,7 +95,7 @@
       "content": [
         { "type": "p", "text": "These terms are the agreement between you and SparkStream App Ltd, which we refer to here as SparkStream, for using the app and its services. To be upfront about who you are agreeing with: SparkStream App Ltd is a private limited company registered in England and Wales, company number 17328916, registered office 128 City Road, London, United Kingdom, EC1V 2NX. These terms are written in plain language on purpose. By using SparkStream you agree to them, so please read them. They work alongside the Privacy & Data Policy, which is part of this agreement." },
         { "type": "h3", "text": "1. Who can use SparkStream" },
-        { "type": "p", "text": "You need to be at least 13, or older if the law where you live sets a higher minimum, and you need the authority to accept these terms. If you are using SparkStream on behalf of an organisation, you confirm you can agree on its behalf." },
+        { "type": "p", "text": "You need to be at least 16, or older if the law where you live sets a higher minimum, and you need the authority to accept these terms. If you are using SparkStream on behalf of an organisation, you confirm you can agree on its behalf." },
         { "type": "h3", "text": "2. What SparkStream is" },
         { "type": "p", "text": "SparkStream is a desktop app that connects to your Twitch account and runs actions in response to channel point redemptions and stream events. The core app runs on your own computer. Some features, mostly Pro ones, use the SparkStream server to provide cloud functionality such as analytics, mobile approvals, the Community Hub, support tickets, and direct messages." },
         { "type": "h3", "text": "3. Your account and your Twitch connection" },

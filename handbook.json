@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "ackVersion": 1,
+  "effective": { "version": "1.0.0", "date": "27 July 2026" },
+  "title": "SparkStream Staff Handbook",
+  "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
+  "sections": [
+    {
+      "id": "standing",
+      "title": "Your standing on the team",
+      "content": [
+        { "type": "p", "text": "Everyone here has the same standing. Ask anything, push back on anything, and say so when something looks wrong. That's how everything here gets decided, and it's the part of this handbook that matters most." },
+        { "type": "p", "text": "Nobody is expected to work something out alone. If you're stuck, unsure, or think a decision was wrong, saying so is the job. It isn't a complaint and it doesn't count against you." },
+        { "type": "p", "text": "If you disagree with something in this handbook, say that too. It gets rewritten when it's wrong." }
+      ]
+    },
+    {
+      "id": "standard",
+      "title": "The standard we work to",
+      "content": [
+        { "type": "p", "text": "SparkStream handles people's accounts, their money, and things they've said in private. The standard is that a person on the other end of anything you do would think it was handled fairly if they could see exactly what you did." },
+        { "type": "ul", "items": [
+          "Decide on what's in front of you, not on who it involves",
+          "If you can't justify an action in a sentence, don't take it yet",
+          "When two readings are both defensible, take the one that's easier to undo"
+        ] },
+        { "type": "note", "text": "Getting something wrong after thinking it through is fine and expected. Guessing quietly because you didn't want to ask is the thing to avoid." }
+      ]
+    },
+    {
+      "id": "duty",
+      "title": "Going on duty",
+      "content": [
+        { "type": "p", "text": "On Duty tells the queue you're actively working. It's what routes new work to you, and it's what counts your paid hours." },
+        { "type": "p", "text": "You can only clock on once a shift has been posted for you, and once an admin has certified you. Every app launch starts you Away on purpose, so clock on again at the start of each session." },
+        { "type": "p", "text": "If the app closes while you're on duty, through a crash, an update, or the tray, the leftover shift is closed automatically and doesn't keep counting." },
+        { "type": "note", "text": "Reading a queue works whether you're on duty or not. Acting on real items needs you clocked on." }
+      ]
+    },
+    {
+      "id": "breaks",
+      "title": "Paid breaks",
+      "content": [
+        { "type": "p", "text": "Going on duty gives you paid break tokens sized to your posted shift." },
+        { "type": "ul", "items": [
+          "Under 4 hours: one break",
+          "4 to 6 hours: two breaks",
+          "Over 6 hours: three breaks"
+        ] },
+        { "type": "p", "text": "Taking a break starts a 20 minute paid countdown. You keep getting paid and stop receiving new work until you come back, or until the timer runs out, which moves you to unpaid Away automatically so a forgotten break can't quietly bill time you weren't working. There's a 45 minute cooldown between breaks." },
+        { "type": "p", "text": "Off Duty is always available regardless of break state. Use it any time you're genuinely stepping away." }
+      ]
+    },
+    {
+      "id": "shifts",
+      "title": "Your schedule",
+      "content": [
+        { "type": "p", "text": "Shifts an admin posts for you appear in My Employment under Upcoming shifts, and you'll be told when one is assigned. Clocking on inside a shift sizes your break tokens for it, and a 30 minute grace window either side counts." },
+        { "type": "p", "text": "Admins can also post open shifts with no assignee. Any staff member can take one, and the first to take it gets it. Taking a shift is always your choice; you're never put on one automatically." },
+        { "type": "p", "text": "If you can't work a shift, you can offer it for cover or ask an admin to release you. It stays yours until somebody takes it or an admin decides, so nothing is ever left unattended because you asked." }
+      ]
+    },
+    {
+      "id": "hours",
+      "title": "Contracted hours and overtime",
+      "content": [
+        { "type": "p", "text": "Your contract sets a number of hours per week. Admins can only schedule you up to that number. Anything beyond it counts as overtime and has to be deliberately confirmed when the shift is offered, so it's never a surprise." },
+        { "type": "p", "text": "Overtime just means a shift would put you over your contracted hours for that week. The exact numbers are shown up front when you take one." },
+        { "type": "note", "text": "Overtime isn't paid at a higher rate, because the base rate is already set well above what this work usually pays. It's offered as a choice and never as an expectation." }
+      ]
+    },
+    {
+      "id": "tickets-priority",
+      "title": "Support tickets: priority",
+      "content": [
+        { "type": "p", "text": "Pro subscribers are automatically high priority and appear at the top of the Open queue. Free users sit below at normal priority." },
+        { "type": "p", "text": "Never deprioritise on anything other than tier. Every ticket gets answered." }
+      ]
+    },
+    {
+      "id": "tickets-answering",
+      "title": "Answering tickets",
+      "content": [
+        { "type": "p", "text": "You can reply and keep a ticket open, or reply and close it. If a user replies again after a close, it reopens automatically and returns to the Open queue with the full conversation attached, so it's never a fresh unrelated issue to them." },
+        { "type": "p", "text": "Keep replies clear and free of jargon unless the person has shown they want the technical detail. Say what you did, what happens next, and what they should do if it doesn't work." },
+        { "type": "p", "text": "Closed tickets leave the queue 48 hours after the last staff reply. The user's own device keeps their copy regardless, so they can still reopen it later." }
+      ]
+    },
+    {
+      "id": "escalation",
+      "title": "Escalating to an admin",
+      "content": [
+        { "type": "p", "text": "Some actions are admin only. If a ticket needs something you can't do, escalate it rather than improvising. Account actions like grants, revocations and refunds are handled by admins." },
+        { "type": "p", "text": "Escalate early rather than late. An escalation isn't a failure to handle something; it's the correct handling." },
+        { "type": "p", "text": "Add a note saying what you've already established. The admin picking it up should not have to redo your reading." }
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "What you see, and what you do with it",
+      "content": [
+        { "type": "p", "text": "Working here gives you sight of things people did not choose to share with you personally: their tickets, their reports, their account history." },
+        { "type": "ul", "items": [
+          "Never share what you see outside the team",
+          "Never use it for anything other than resolving the thing in front of you",
+          "Never look something up out of curiosity"
+        ] },
+        { "type": "p", "text": "Some records are access logged, and you'll be told at the point of access when that's the case. That isn't suspicion of you; it's what lets us tell a person honestly who has seen their information." },
+        { "type": "note", "text": "Direct messages between users are end to end encrypted and cannot be read by staff or by SparkStream, including when they're reported. Only what a reporter chooses to submit is readable." }
+      ]
+    },
+    {
+      "id": "moderation",
+      "title": "Moderation standards",
+      "content": [
+        { "type": "p", "text": "Moderation decisions are about content and behaviour, never about the person. Two people doing the same thing get the same outcome." },
+        { "type": "ul", "items": [
+          "Act on what was actually posted or done, not on what you suspect was meant",
+          "Prefer the reversible action while you're still unsure",
+          "Record a reason that would make sense to the person it's about"
+        ] },
+        { "type": "p", "text": "Every outcome has to answer two questions: what happens to the content, and what happens to the person. If your action only answers one of them, it isn't finished." },
+        { "type": "p", "text": "Reporters are told the outcome of what they reported. Write your reason knowing somebody will read it." },
+        { "type": "note", "text": "If a case involves you, someone you know, or anything you have a stake in, hand it to someone else. That's not a rule about trust, it's about the decision being defensible afterwards." }
+      ]
+    },
+    {
+      "id": "training",
+      "title": "Practice and training",
+      "content": [
+        { "type": "p", "text": "An admin can place practice items in the real queues for you. They're fabricated from top to bottom, no real person is involved, and they behave exactly like real items so the tools become familiar before they matter." },
+        { "type": "p", "text": "Practice works even before you're certified, which is the point: you should not be learning the tools on somebody's actual problem." },
+        { "type": "p", "text": "Afterwards you can see what was expected and why. Where a case is genuinely defensible either way, it's marked as such rather than being scored, because a training tool that marks a reasonable call wrong teaches you to distrust it." },
+        { "type": "note", "text": "Practice records are kept separately from your employment record. A practice mistake is not a disciplinary fact and is never treated as one." }
+      ]
+    },
+    {
+      "id": "certification",
+      "title": "Certification",
+      "content": [
+        { "type": "p", "text": "Before your first shift an admin certifies you. Until that happens you can't clock on at all." },
+        { "type": "p", "text": "Certification means your employment information is on file and you've read and acknowledged this handbook. Those two are required. Everything else on your Getting started checklist is useful rather than mandatory." },
+        { "type": "p", "text": "Certification can be withdrawn, for example while retraining. If that happens you're told, and you're told why." }
+      ]
+    },
+    {
+      "id": "checks",
+      "title": "How work is checked",
+      "content": [
+        { "type": "p", "text": "We'd rather tell you this plainly than have you discover it." },
+        { "type": "ul", "items": [
+          "Hours worked, tickets answered and response times are recorded",
+          "Occasional fabricated cases are put through the real queues as spot checks, so you'll know it happens but not when",
+          "Access to the most sensitive records is logged"
+        ] },
+        { "type": "p", "text": "None of this is scored against you individually as a target. Time a queue spent overdue is shared across whoever was on duty rather than pinned on one person, because a backlog is a staffing problem, not a personal one." },
+        { "type": "p", "text": "If something in these figures looks unfair, say so. It's been changed before on exactly that basis." }
+      ]
+    },
+    {
+      "id": "employment-record",
+      "title": "Your employment record",
+      "content": [
+        { "type": "p", "text": "My Employment holds your contract, contracted hours, rate, hours actually worked this week and month, and an estimated pay figure where a rate is on file. That figure is estimated from hours worked, is before tax and deductions, and is a convenience total rather than a payslip." },
+        { "type": "p", "text": "Your legal name, date of birth, address, phone number and emergency contact are held encrypted. If you're employed through an employer of record, we hold less, because they hold your payroll identity." },
+        { "type": "p", "text": "An admin reading those details leaves an audit entry, and the button says so before they press it." },
+        { "type": "note", "text": "We never ask for your bank details in the app. Payment details are collected in the payroll process outside it." }
+      ]
+    },
+    {
+      "id": "details-and-time-off",
+      "title": "Changing your details and taking time off",
+      "content": [
+        { "type": "p", "text": "You can update where you're based and the hours you usually work yourself, once every 30 days. Inside that window the change becomes a request an admin approves, because availability changing at will fights the shift scheduler. Either way you hear back." },
+        { "type": "p", "text": "Time off is requested in whole days from the Staff Hub. You're told when it's decided, and the reason if it's declined." },
+        { "type": "p", "text": "Your country and working window are recommendations to whoever is planning cover. They never restrict what you can be offered or what you can take." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "title": "Referral rewards",
+      "content": [
+        { "type": "p", "text": "Staff earn referral credits like anyone else. Your code still works and credits still build up while you're on staff." },
+        { "type": "p", "text": "You're never expected or asked to market SparkStream. It's entirely optional." },
+        { "type": "p", "text": "Credits you build up sit untouched while you're staff, and only start counting down as Pro days after your staff access ends. Referring is a genuine perk with no downside, not part of the job." }
+      ]
+    },
+    {
+      "id": "raising-concerns",
+      "title": "If something goes wrong",
+      "content": [
+        { "type": "p", "text": "If you make a mistake, say so as early as you can. Almost everything here is reversible if it's caught quickly, and the cost of a late disclosure is always higher than the mistake." },
+        { "type": "p", "text": "If you're concerned about something somebody else did, including an admin, raise it. There's no route here that requires you to go through the person you're worried about." },
+        { "type": "p", "text": "If you think a rule in this handbook is wrong, or that following it would produce an unfair outcome, say so before following it." }
+      ]
+    }
+  ]
+}

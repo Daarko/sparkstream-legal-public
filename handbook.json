@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "ackVersion": 1,
-  "effective": { "version": "1.0.0", "date": "27 July 2026" },
+  "version": "1.1.0",
+  "ackVersion": 2,
+  "effective": { "version": "1.1.0", "date": "28 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -138,8 +138,15 @@
       "id": "certification",
       "title": "Certification",
       "content": [
-        { "type": "p", "text": "Before your first shift an admin certifies you. Until that happens you can't clock on at all." },
-        { "type": "p", "text": "Certification means your employment information is on file and you've read and acknowledged this handbook. Those two are required. Everything else on your Getting started checklist is useful rather than mandatory." },
+        { "type": "p", "text": "Before your first shift an admin certifies you. Until that happens you can't clock on at all, which also means you can't start being paid." },
+        { "type": "p", "text": "Three things have to be true first, and the system refuses to certify you without them:" },
+        { "type": "ul", "items": [
+          "Your contract is on file, including your contracted hours and your pay rate. If you're employed through an employer of record, that provider is named instead",
+          "Your employment information is on file: your legal name, your contact details and an emergency contact",
+          "You've read this handbook and confirmed it"
+        ] },
+        { "type": "p", "text": "The first of those is the company's job, not yours. Nobody can be put to work here before the terms they're working under actually exist, and that isn't something an admin can wave through in a hurry." },
+        { "type": "p", "text": "Everything else on your Getting started checklist is useful rather than mandatory." },
         { "type": "p", "text": "Certification can be withdrawn, for example while retraining. If that happens you're told, and you're told why." }
       ]
     },
@@ -168,12 +175,39 @@
       ]
     },
     {
+      "id": "paid-leave",
+      "title": "Paid time off",
+      "content": [
+        { "type": "p", "text": "You get paid annual leave. UK law sets the standard we work to, and if your own country entitles you to more than that, you get the better of the two." },
+        { "type": "p", "text": "Three days are in your account from the moment you're certified, and again at the start of every leave year. That's so you have some flexibility straight away rather than having to earn it first." },
+        { "type": "p", "text": "On top of those, leave builds up as you work, at the statutory rate of 12.07% of the hours you work. In round terms that's about an hour of paid leave for every eight hours worked. There's no cap: a heavier month earns more leave, always." },
+        { "type": "p", "text": "It's counted in hours rather than days because shifts here vary in length. Counting in days would mean guessing how long your day is, and that guess would be wrong for somebody." },
+        { "type": "p", "text": "The leave year runs 1 April to 31 March." },
+        { "type": "note", "text": "Booking leave costs you the hours you were scheduled to work in that period. If no shifts were posted across the dates you book, it costs you nothing, because there was nothing to take off. Your balance and what each booking used are both shown in the Staff Hub." }
+      ]
+    },
+    {
+      "id": "leave-year-end",
+      "title": "What happens to leave you don't take",
+      "content": [
+        { "type": "p", "text": "Nothing you've earned is ever lost. It goes one of two ways, and both of them are yours." },
+        { "type": "ul", "items": [
+          "The part you built up from hours worked carries over into the next leave year",
+          "The three base days, and anything extra added on top, are paid to you instead"
+        ] },
+        { "type": "p", "text": "Leave you do take comes off the earned part first. That's deliberate, and it's in your favour: it means the part that can be paid out stays intact for as long as possible." },
+        { "type": "p", "text": "The reason for the split is that the law is quite firm about statutory leave. It exists so people actually rest, so it can't be bought back while you're still employed. Carrying it over is how we make sure you keep it without turning your time off into money you didn't ask for." },
+        { "type": "note", "text": "The balance shown in the app is a record of your entitlement, not a payslip. Actual payment goes through payroll. If the two ever disagree, payroll is the one that counts and the app is the one that's wrong." }
+      ]
+    },
+    {
       "id": "details-and-time-off",
-      "title": "Changing your details and taking time off",
+      "title": "Changing your details and requesting time off",
       "content": [
         { "type": "p", "text": "You can update where you're based and the hours you usually work yourself, once every 30 days. Inside that window the change becomes a request an admin approves, because availability changing at will fights the shift scheduler. Either way you hear back." },
         { "type": "p", "text": "Time off is requested in whole days from the Staff Hub. You're told when it's decided, and the reason if it's declined." },
-        { "type": "p", "text": "Your country and working window are recommendations to whoever is planning cover. They never restrict what you can be offered or what you can take." }
+        { "type": "p", "text": "Your country and working window are recommendations to whoever is planning cover. They never restrict what you can be offered or what you can take." },
+        { "type": "p", "text": "If you're employed through an employer of record, your leave entitlement and balance are held by them rather than here. Requests still go through the Staff Hub so cover can be planned." }
       ]
     },
     {

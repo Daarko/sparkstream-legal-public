@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "ackVersion": 2,
-  "effective": { "version": "1.1.0", "date": "28 July 2026" },
+  "version": "1.2.0",
+  "ackVersion": 3,
+  "effective": { "version": "1.2.0", "date": "28 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -131,7 +131,7 @@
         { "type": "p", "text": "An admin can place practice items in the real queues for you. They're fabricated from top to bottom, no real person is involved, and they behave exactly like real items so the tools become familiar before they matter." },
         { "type": "p", "text": "Practice works even before you're certified, which is the point: you should not be learning the tools on somebody's actual problem." },
         { "type": "p", "text": "Afterwards you can see what was expected and why. Where a case is genuinely defensible either way, it's marked as such rather than being scored, because a training tool that marks a reasonable call wrong teaches you to distrust it." },
-        { "type": "note", "text": "Practice records are kept separately from your employment record. A practice mistake is not a disciplinary fact and is never treated as one." }
+        { "type": "note", "text": "Nothing from practice is written into your employment record and it is never grounds for discipline. What an admin can see is a summary of how your recent practice went, worked out fresh each time the page loads and stored nowhere, so somebody can offer you a hand rather than let you struggle quietly. You see the same summary about yourself." }
       ]
     },
     {
@@ -171,7 +171,11 @@
         { "type": "p", "text": "My Employment holds your contract, contracted hours, rate, hours actually worked this week and month, and an estimated pay figure where a rate is on file. That figure is estimated from hours worked, is before tax and deductions, and is a convenience total rather than a payslip." },
         { "type": "p", "text": "Your legal name, date of birth, address, phone number and emergency contact are held encrypted. If you're employed through an employer of record, we hold less, because they hold your payroll identity." },
         { "type": "p", "text": "An admin reading those details leaves an audit entry, and the button says so before they press it." },
-        { "type": "note", "text": "We never ask for your bank details in the app. Payment details are collected in the payroll process outside it." }
+        { "type": "p", "text": "Your record also holds anything written down about your work: notes, a promotion or a change of pay, times we offered support, and, if it ever comes to it, a concern raised or a formal warning." },
+        { "type": "p", "text": "You can read all of it, any time, on My Record. There is no second version of your file kept somewhere you cannot see. Anything you are asked to acknowledge stays marked as waiting until you confirm you have read it, and you are the only person who can confirm it." },
+        { "type": "p", "text": "An entry written in error is withdrawn rather than deleted, with the reason attached, so you can see both that it was there and why it no longer stands." },
+        { "type": "note", "text": "We never ask for your bank details in the app. Payment details are collected in the payroll process outside it." },
+        { "type": "note", "text": "If something in your record is wrong, say so. You are entitled to a copy of everything we hold about you, and to have what is inaccurate corrected." }
       ]
     },
     {

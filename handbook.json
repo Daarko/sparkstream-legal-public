@@ -1,7 +1,7 @@
 {
-  "version": "1.6.0",
-  "ackVersion": 7,
-  "effective": { "version": "1.6.0", "date": "31 July 2026" },
+  "version": "1.7.0",
+  "ackVersion": 8,
+  "effective": { "version": "1.7.0", "date": "31 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -212,7 +212,8 @@
       "title": "Paid time off",
       "content": [
         { "type": "p", "text": "You get paid annual leave. UK law sets the standard we work to, and if your own country entitles you to more than that, you get the better of the two." },
-        { "type": "p", "text": "Three days are in your account from the moment you're certified, and again at the start of every leave year. That's so you have some flexibility straight away rather than having to earn it first." },
+        { "type": "p", "text": "Three base days are added on top of what you build up, each leave year. In your first weeks they unlock in steps rather than all at once: the first day once you have been on the team two weeks and worked 16 hours, the second at four weeks and 40 hours, the third at eight weeks and 80 hours. The steps keep flexibility arriving early while making sure paid leave always tracks real work, and the Staff Hub shows you exactly where you are against the next one." },
+        { "type": "p", "text": "The steps are climbed once, ever: from your second leave year onwards, all three days are available from the first day of the year." },
         { "type": "p", "text": "On top of those, leave builds up as you work, at the statutory rate of 12.07% of the hours you work. In round terms that's about an hour of paid leave for every eight hours worked. There's no cap: a heavier month earns more leave, always." },
         { "type": "p", "text": "It's counted in hours rather than days because shifts here vary in length. Counting in days would mean guessing how long your day is, and that guess would be wrong for somebody." },
         { "type": "p", "text": "The leave year runs 1 April to 31 March." },
@@ -223,14 +224,41 @@
       "id": "leave-year-end",
       "title": "What happens to leave you don't take",
       "content": [
-        { "type": "p", "text": "Nothing you've earned is ever lost. It goes one of two ways, and both of them are yours." },
+        { "type": "p", "text": "At the end of the leave year, whatever you haven't taken goes one of three ways." },
         { "type": "ul", "items": [
-          "The part you built up from hours worked carries over into the next leave year",
+          "The part you built up from hours worked this year carries over into the next leave year, once",
+          "Anything still left of what you carried in from the year before lapses: leave rolls over one year and no further",
           "The three base days, and anything extra added on top, are paid to you instead"
         ] },
-        { "type": "p", "text": "Leave you do take comes off the earned part first. That's deliberate, and it's in your favour: it means the part that can be paid out stays intact for as long as possible." },
-        { "type": "p", "text": "The reason for the split is that the law is quite firm about statutory leave. It exists so people actually rest, so it can't be bought back while you're still employed. Carrying it over is how we make sure you keep it without turning your time off into money you didn't ask for." },
+        { "type": "p", "text": "Leave you take is counted against the oldest part of your balance first: carried hours before this year's, this year's before the paid-out pot. That's deliberate and in your favour, because the part closest to lapsing is always the part being spent." },
+        { "type": "p", "text": "The one-year limit exists because statutory leave is for resting, not for banking: without it, years of untaken leave could pile into months of paid absence, which helps nobody and least of all the person who never rested. The law works the same way, and is in fact stricter than this." },
+        { "type": "p", "text": "You will never lose leave silently. The app reminds you to take your leave as the year end approaches, more insistently the closer it gets, and tells you exactly what would lapse and when. If leave is about to lapse, an admin is told too, so getting you time off becomes the team's job rather than something you were supposed to remember alone. Leave you couldn't take because of sickness or family leave doesn't lapse: tell an admin and it is restored on top." },
         { "type": "note", "text": "The balance shown in the app is a record of your entitlement, not a payslip. Actual payment goes through payroll. If the two ever disagree, payroll is the one that counts and the app is the one that's wrong." }
+      ]
+    },
+    {
+      "id": "sick-leave",
+      "title": "If you're ill",
+      "content": [
+        { "type": "p", "text": "Report sick from the Staff Hub. There is no approval step, because being ill is a notification, not a request. The moment you report it, your upcoming shifts are offered to the team for cover, admins are told, and you are done: rest." },
+        { "type": "p", "text": "Sick pay runs from day one. There are no unpaid waiting days here, whatever the law of the day allows. For the first six weeks of a sickness you are paid your full average earnings, worked out over your last eight normal weeks, the same as the first weeks of family leave. After that, the statutory rate applies for as long as the law provides. Payment itself goes through payroll." },
+        { "type": "p", "text": "You can self-certify for up to seven days. Past seven days we ask for a fit note from a doctor, which is the standard rule and the only paperwork involved." },
+        { "type": "ul", "items": [
+          "Your paid leave keeps building up while you are off sick, at your normal rhythm",
+          "If you fall ill during booked annual leave, tell an admin: those days convert to sick leave and your holiday is restored",
+          "Nothing can be scheduled for you while a sickness is recorded, and you cannot pick up shifts either. Rest is the job"
+        ] },
+        { "type": "note", "text": "When you are better, end the sickness from the same place you reported it. Nobody chases you while it is open." }
+      ]
+    },
+    {
+      "id": "family-leave",
+      "title": "Maternity and paternity leave",
+      "content": [
+        { "type": "p", "text": "Maternity leave is up to 52 weeks, with 39 of them paid: the first six weeks at your full average earnings, worked out over your last eight normal weeks, then the statutory rate for the rest. The law asks for 90% in those first weeks; we pay all of it, because the difference is small to the company and not small to you." },
+        { "type": "p", "text": "Paternity leave is two weeks at the same first-weeks terms, takeable together or separately within the first year." },
+        { "type": "p", "text": "An admin records the leave with you, and from then on nothing can be scheduled into it. Your paid annual leave keeps building up for the whole duration at your normal rhythm, which is your legal right and the system's default rather than something to ask for." },
+        { "type": "note", "text": "Payment goes through payroll, like all money. Where your own country's law gives you more than any of this, you get the more, as everywhere else in this handbook." }
       ]
     },
     {
@@ -240,7 +268,7 @@
         { "type": "p", "text": "You can update where you're based and the hours you usually work yourself, once every 30 days. Inside that window the change becomes a request an admin approves, because availability changing at will fights the shift scheduler. Either way you hear back." },
         { "type": "p", "text": "Time off is requested in whole days from the Staff Hub. You're told when it's decided, and the reason if it's declined." },
         { "type": "p", "text": "Your country and working window are recommendations to whoever is planning cover. They never restrict what you can be offered or what you can take." },
-        { "type": "p", "text": "If you're employed through an employer of record, your leave entitlement and balance are held by them rather than here. Requests still go through the Staff Hub so cover can be planned." }
+        { "type": "p", "text": "If you're employed through an employer of record, your leave is worked out here on exactly the same terms as everyone else's, and your employer of record administers it. The terms in this handbook are a floor, never a ceiling: where your own country's law grants you more, you get the more. Requests still go through the Staff Hub so cover can be planned." }
       ]
     },
     {

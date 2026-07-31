@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "ackVersion": 5,
-  "effective": { "version": "1.4.0", "date": "31 July 2026" },
+  "version": "1.5.0",
+  "ackVersion": 6,
+  "effective": { "version": "1.5.0", "date": "31 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -23,6 +23,7 @@
         { "type": "p", "text": "Staff Lead adds the decisions that affect a person rather than a queue item: formal warnings, community bans, removing someone's messaging access, the more serious moderation reviews, and tickets other staff have passed up. Leads also handle credit rewards and giveaway codes." },
         { "type": "p", "text": "Admin adds running the team itself: inviting and certifying staff, posting shifts, contracts, payroll and time off, refunds, platform-level account decisions, and granting the Staff roles. Admins also hold the audit and security logs." },
         { "type": "p", "text": "Admin Lead adds the small set of controls that affect everyone at once, such as marketing sends and site-wide promotions, and managing Admins. Admin Leads are appointed by the company owner directly." },
+        { "type": "p", "text": "Above all four sits the owner, who runs the company. The owner role is not grantable in the app at all: it is fixed in the server's configuration, which is also why nobody, at any rank, can change or remove it from inside the app. The owner appoints and removes Admin Leads, holds the development and testing tools, sets the pay ladder, is not paid hourly, and never appears in payroll. The owner is exempt from shift posting and certification, because those mechanisms exist to protect and pay scheduled staff and the owner is neither. Every standard in this handbook about conduct, fairness and privacy applies to the owner exactly as it applies to anyone else." },
         { "type": "ul", "items": [
           "A role change is always made by someone above the role in question, with a recorded reason, and you are told when it happens",
           "Passing something to a role above yours is correct handling, never a failure",
@@ -256,7 +257,7 @@
       "title": "If something goes wrong",
       "content": [
         { "type": "p", "text": "If you make a mistake, say so as early as you can. Almost everything here is reversible if it's caught quickly, and the cost of a late disclosure is always higher than the mistake." },
-        { "type": "p", "text": "If you're concerned about something somebody else did, including an admin, raise it. There's no route here that requires you to go through the person you're worried about." },
+        { "type": "p", "text": "If you're concerned about something somebody else did, including an admin or the owner, raise it. There's no route here that requires you to go through the person you're worried about." },
         { "type": "p", "text": "If you think a rule in this handbook is wrong, or that following it would produce an unfair outcome, say so before following it." }
       ]
     }

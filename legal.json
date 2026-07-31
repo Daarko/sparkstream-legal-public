@@ -1,6 +1,6 @@
 {
-  "version": "0.11.0",
-  "effective": { "version": "0.11.0", "date": "15 July 2026" },
+  "version": "0.12.0",
+  "effective": { "version": "0.12.0", "date": "31 July 2026" },
   "documents": [
     {
       "id": "privacy",
@@ -36,7 +36,8 @@
           "Mobile approvals (Pro): a short lived queue entry while a redemption waits for approval on your phone. These auto expire after a few hours.",
           "Security log: a limited record of security relevant events, such as failed sign in attempts. Any IP address is stored encrypted and kept only for a short period.",
           "Forum reports: if you report a forum post, the report itself (which post, the reason, and any details you add, encrypted at rest). Reports are visible only to the moderation team.",
-          "Signed-in devices: a coarse device name (like SparkStream Desktop on Windows) and when each device first signed in and was last active. This powers the Active devices list in Settings and new sign-in email alerts. No IP addresses or hardware identifiers."
+          "Signed-in devices: a coarse device name (like SparkStream Desktop on Windows) and when each device first signed in and was last active. This powers the Active devices list in Settings and new sign-in email alerts. No IP addresses or hardware identifiers.",
+          "Account lock: if you use the lock button in a new sign-in email, the fact and time of that lock, kept until you or support unlock it. The link in that email is stored only as a hash, so it cannot be read back out of the database."
         ]},
         { "type": "h3", "text": "Encryption" },
         { "type": "p", "text": "Sensitive fields on the server (billing email, support ticket content, security log IP addresses, and the viewer identity in analytics) are encrypted at rest. Direct messages go further: they are end to end encrypted, so only the intended recipient's device can decrypt them. SparkStream staff cannot read your direct messages, and SparkStream will never contact you through the direct message feature. Anyone claiming to be SparkStream staff in your DMs is not." },

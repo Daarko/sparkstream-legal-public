@@ -1,7 +1,7 @@
 {
-  "version": "1.7.0",
-  "ackVersion": 8,
-  "effective": { "version": "1.7.0", "date": "31 July 2026" },
+  "version": "1.8.0",
+  "ackVersion": 9,
+  "effective": { "version": "1.8.0", "date": "31 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -136,6 +136,20 @@
         ] },
         { "type": "p", "text": "Some records are access logged, and you'll be told at the point of access when that's the case. That isn't suspicion of you; it's what lets us tell a person honestly who has seen their information." },
         { "type": "note", "text": "Direct messages between users are end to end encrypted and cannot be read by staff or by SparkStream, including when they're reported. Only what a reporter chooses to submit is readable." }
+      ]
+    },
+    {
+      "id": "signin-security",
+      "title": "Your sign-in security",
+      "content": [
+        { "type": "p", "text": "Staff accounts can reach other people's data and the business itself, so they carry an extra layer ordinary accounts don't: SparkStream recognises the networks you work from." },
+        { "type": "ul", "items": [
+          "Sign in from a network we haven't seen you on before and staff access pauses until you enter a 6-digit code emailed to your account address. Codes are freshly random each time, last 30 minutes, and five wrong attempts kill the code and alert both you and the admins.",
+          "The same email carries a red button for when it wasn't you. It signs out every session on your account and locks your staff access; an admin restores it once your account is secured. Change your Twitch password straight away as well.",
+          "Admins can also lock a staff account outright while something is looked into. A lock is not a sanction and not a demotion: your role, pay and employment record are untouched by it."
+        ] },
+        { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it." },
+        { "type": "p", "text": "None of this applies to ordinary use of SparkStream as a user. It guards the staff surface only." }
       ]
     },
     {

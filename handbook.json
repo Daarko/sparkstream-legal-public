@@ -1,7 +1,7 @@
 {
-  "version": "1.5.0",
-  "ackVersion": 6,
-  "effective": { "version": "1.5.0", "date": "31 July 2026" },
+  "version": "1.6.0",
+  "ackVersion": 7,
+  "effective": { "version": "1.6.0", "date": "31 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -257,7 +257,9 @@
       "title": "If something goes wrong",
       "content": [
         { "type": "p", "text": "If you make a mistake, say so as early as you can. Almost everything here is reversible if it's caught quickly, and the cost of a late disclosure is always higher than the mistake." },
-        { "type": "p", "text": "If you're concerned about something somebody else did, including an admin or the owner, raise it. There's no route here that requires you to go through the person you're worried about." },
+        { "type": "p", "text": "If you're concerned about something somebody else did, including an admin or the owner, raise it. For anyone below the owner, there is always a route that does not go through the person you're worried about." },
+        { "type": "p", "text": "Honesty about a limit: SparkStream is currently a very small company with no separate HR function, so a concern about the owner will, at this size, be read by the owner. We would rather say that plainly than pretend a route exists that does not. What is promised instead: every concern raised gets a written answer, raising one is never held against you, and your employment record is fully visible to you, so any consequence would have to happen somewhere you can see it." },
+        { "type": "note", "text": "There are also routes that do not involve the owner at all. If you are employed through an employer of record, their HR and grievance process is independent of SparkStream. Anyone in the UK can contact Acas free of charge and in confidence, and a protected disclosure to a regulator is protected by law whatever the size of the employer. We will not pretend a future HR function would change this: in an owner-run company, HR is hired by the owner and cannot hold real power over the owner. The genuinely independent routes are the external ones, which is exactly why they are named here." },
         { "type": "p", "text": "If you think a rule in this handbook is wrong, or that following it would produce an unfair outcome, say so before following it." }
       ]
     }

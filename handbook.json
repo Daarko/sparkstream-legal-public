@@ -1,7 +1,7 @@
 {
-  "version": "1.8.0",
-  "ackVersion": 9,
-  "effective": { "version": "1.8.0", "date": "31 July 2026" },
+  "version": "1.9.0",
+  "ackVersion": 10,
+  "effective": { "version": "1.9.0", "date": "1 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -150,6 +150,19 @@
         ] },
         { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it." },
         { "type": "p", "text": "None of this applies to ordinary use of SparkStream as a user. It guards the staff surface only." }
+      ]
+    },
+    {
+      "id": "verifying-users",
+      "title": "Confirming who you are talking to",
+      "content": [
+        { "type": "p", "text": "Anyone can type a username into a ticket. Before you act on anything sensitive or destructive, a refund, a deletion, an unlock, an account change, confirm you are talking to the account holder." },
+        { "type": "ul", "items": [
+          "Never ask for the number itself. Use Request verification, in the ticket or in User Management, and the person confirms their PIN in their own app. You only ever see the result.",
+          "The server holds you to it: unlocking an account or resetting a PIN refuses until a fresh verification exists.",
+          "A red disavowal means exactly what it says: whoever is in your conversation is not the account holder. Do not act on that conversation, and tell an admin."
+        ] },
+        { "type": "note", "text": "Verification requests also email the account holder, so the real person knows even when someone else is holding their session. Both the request and the result are logged by name, yours included." }
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "ackVersion": 4,
-  "effective": { "version": "1.3.0", "date": "31 July 2026" },
+  "version": "1.4.0",
+  "ackVersion": 5,
+  "effective": { "version": "1.4.0", "date": "31 July 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -92,7 +92,9 @@
         { "type": "p", "text": "Overtime just means a shift would put you over your contracted hours for that week. The exact numbers are shown up front when you take one." },
         { "type": "note", "text": "Overtime isn't paid at a higher rate, because the base rate is already set well above what this work usually pays. It's offered as a choice and never as an expectation." },
         { "type": "p", "text": "Separately from your contracted hours, there is a hard weekly cap: no more than 40 hours of shifts in any week. That is our own limit, set deliberately below the legal 48-hour average, and by default nothing can be scheduled past it, whether by an admin or by you taking open shifts." },
-        { "type": "p", "text": "If you want to be able to work past 40 hours, you can opt out in My Employment. It is a checkbox only you can tick: it is entirely voluntary, nobody will ever ask you to tick it, declining has no consequences of any kind, and you can untick it at any time to restore the cap immediately." }
+        { "type": "p", "text": "If you want to be able to work past 40 hours, you can opt out in My Employment. It is a checkbox only you can tick: it is entirely voluntary, nobody will ever ask you to tick it, and declining has no consequences of any kind." },
+        { "type": "p", "text": "A change in either direction takes effect 7 days after you request it, and while it is pending you cannot take on new shifts. That notice period is what makes the choice deliberate for both sides: nobody can stack hours ahead of a cap they know is coming back, and nobody can be rushed into lifting one." },
+        { "type": "note", "text": "Shifts you have already accepted always stand. Restoring the cap stops anything new being scheduled past 40 hours; it never cancels work you agreed to. My Employment shows you any upcoming weeks already over the cap, and offering cover from the Staff Hub is the way to reduce them if you want to." }
       ]
     },
     {

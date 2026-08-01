@@ -1,7 +1,7 @@
 {
-  "version": "1.10.0",
+  "version": "1.10.1",
   "ackVersion": 11,
-  "effective": { "version": "1.10.0", "date": "1 August 2026" },
+  "effective": { "version": "1.10.1", "date": "1 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -261,7 +261,7 @@
         ] },
         { "type": "p", "text": "Leave you take is counted against the oldest part of your balance first: carried hours before this year's, this year's before the paid-out pot. That's deliberate and in your favour, because the part closest to lapsing is always the part being spent." },
         { "type": "p", "text": "The one-year limit exists because statutory leave is for resting, not for banking: without it, years of untaken leave could pile into months of paid absence, which helps nobody and least of all the person who never rested. The law works the same way, and is in fact stricter than this." },
-        { "type": "p", "text": "You will never lose leave silently. The app reminds you to take your leave as the year end approaches, more insistently the closer it gets, and tells you exactly what would lapse and when. If leave is about to lapse, an admin is told too, so getting you time off becomes the team's job rather than something you were supposed to remember alone. Leave you couldn't take because of sickness or family leave doesn't lapse. The app has no button for that one: tell an admin and it is put right by hand." },
+        { "type": "p", "text": "You will never lose leave silently. The app reminds you to take your leave as the year end approaches, more insistently the closer it gets, and tells you exactly what would lapse and when. If leave is about to lapse, an admin is told too, so getting you time off becomes the team's job rather than something you were supposed to remember alone. Leave you couldn't take because of sickness or family leave doesn't lapse: tell an admin and those hours are added back to your balance, with the reason attached so you can see exactly what changed and why." },
         { "type": "note", "text": "The balance shown in the app is a record of your entitlement, not a payslip. Actual payment goes through payroll. If the two ever disagree, payroll is the one that counts and the app is the one that's wrong." }
       ]
     },
@@ -274,7 +274,7 @@
         { "type": "p", "text": "You can self-certify for up to seven days. Past seven days we ask for a fit note from a doctor, which is the standard rule and the only paperwork involved." },
         { "type": "ul", "items": [
           "Your paid leave keeps building up while you are off sick, at your normal rhythm",
-          "If you fall ill during booked annual leave, those days count as sick leave and your holiday is restored. Approved leave can't be reversed in the app, so tell an admin and it is corrected by hand",
+          "If you fall ill during booked annual leave, tell an admin: those days count as sick leave and the holiday hours are added back to your balance. The booking itself stays on your record and the correction sits beside it, so you can see both rather than one quietly replacing the other",
           "Nothing can be scheduled for you while a sickness is recorded, and you cannot pick up shifts either. Rest is the job"
         ] },
         { "type": "note", "text": "When you are better, end the sickness from the same place you reported it. Nobody chases you while it is open." }

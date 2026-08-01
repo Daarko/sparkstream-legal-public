@@ -1,7 +1,7 @@
 {
-  "version": "1.9.0",
-  "ackVersion": 10,
-  "effective": { "version": "1.9.0", "date": "1 August 2026" },
+  "version": "1.10.0",
+  "ackVersion": 11,
+  "effective": { "version": "1.10.0", "date": "1 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -58,7 +58,7 @@
       "content": [
         { "type": "p", "text": "On Duty tells the queue you're actively working. It's what routes new work to you, and it's what counts your paid hours." },
         { "type": "p", "text": "You can only clock on once a shift has been posted for you, and once an admin has certified you. Every app launch starts you Away on purpose, so clock on again at the start of each session." },
-        { "type": "p", "text": "If the app closes while you're on duty, through a crash, an update, or the tray, the leftover shift is closed automatically and doesn't keep counting." },
+        { "type": "p", "text": "If the app closes while you're on duty, through a crash, an update, or the tray, the shift is not left running: the next time you open the app it clocks you off, and the server closes it at your posted end regardless. Nothing is ever paid past the shift that was posted." },
         { "type": "note", "text": "Reading a queue works whether you're on duty or not. Acting on real items needs you clocked on." }
       ]
     },
@@ -80,8 +80,8 @@
       "id": "shifts",
       "title": "Your schedule",
       "content": [
-        { "type": "p", "text": "Shifts an admin posts for you appear in My Employment under Upcoming shifts, and you'll be told when one is assigned. Clocking on inside a shift sizes your break tokens for it, and a 30 minute grace window either side counts." },
-        { "type": "p", "text": "Admins can also post open shifts with no assignee. Any staff member can take one, and the first to take it gets it. Taking a shift is always your choice; you're never put on one automatically." },
+        { "type": "p", "text": "Shifts an admin posts for you appear in My Employment under Upcoming shifts, and you'll be told when one is assigned. Clocking on inside a shift sizes your break tokens for it. A posted shift appears up to an hour ahead as a countdown, but you cannot clock on before it starts, because paid time starts at the posted start either way. A 15 minute wrap-up window after the posted end still counts." },
+        { "type": "p", "text": "Admins can also post open shifts with no assignee, and the first to take one gets it. Taking a shift is always your choice; you're never put on one automatically. It's refused only if it clashes with a shift you already hold, falls inside a recorded absence, would breach your 40 hour cap, was offered as non-overtime and would put you over your contracted hours, or you have a working time change pending." },
         { "type": "p", "text": "If you can't work a shift, you can offer it for cover or ask an admin to release you. It stays yours until somebody takes it or an admin decides, so nothing is ever left unattended because you asked." }
       ]
     },
@@ -95,15 +95,15 @@
         { "type": "p", "text": "Separately from your contracted hours, there is a hard weekly cap: no more than 40 hours of shifts in any week. That is our own limit, set deliberately below the legal 48-hour average, and by default nothing can be scheduled past it, whether by an admin or by you taking open shifts." },
         { "type": "p", "text": "If you want to be able to work past 40 hours, you can opt out in My Employment. It is a checkbox only you can tick: it is entirely voluntary, nobody will ever ask you to tick it, and declining has no consequences of any kind." },
         { "type": "p", "text": "A change in either direction takes effect 7 days after you request it, and while it is pending you cannot take on new shifts. That notice period is what makes the choice deliberate for both sides: nobody can stack hours ahead of a cap they know is coming back, and nobody can be rushed into lifting one." },
-        { "type": "note", "text": "Shifts you have already accepted always stand. Restoring the cap stops anything new being scheduled past 40 hours; it never cancels work you agreed to. My Employment shows you any upcoming weeks already over the cap, and offering cover from the Staff Hub is the way to reduce them if you want to." }
+        { "type": "note", "text": "Shifts you have already accepted always stand. Restoring the cap stops anything new being scheduled past 40 hours; it never cancels work you agreed to. My Employment shows you any upcoming weeks already over the cap, and offering cover from the Shifts panel in My Employment is the way to reduce them if you want to." }
       ]
     },
     {
       "id": "tickets-priority",
       "title": "Support tickets: priority",
       "content": [
-        { "type": "p", "text": "Pro subscribers are automatically high priority and appear at the top of the Open queue. Free users sit below at normal priority." },
-        { "type": "p", "text": "Never deprioritise on anything other than tier. Every ticket gets answered." }
+        { "type": "p", "text": "Pro subscribers, staff, and holders of the Myth Made Real achievement are automatically high priority and appear at the top of the Open queue. Everyone else sits below at normal priority." },
+        { "type": "p", "text": "Never deprioritise on anything the app hasn't already sorted for you. Every ticket gets answered." }
       ]
     },
     {
@@ -119,7 +119,7 @@
       "id": "escalation",
       "title": "Escalating upward",
       "content": [
-        { "type": "p", "text": "Some actions belong to roles above yours. If a ticket needs something you can't do, escalate it rather than improvising. Escalated tickets are picked up by Staff Leads and above; account actions like grants, revocations and refunds are handled by Admins." },
+        { "type": "p", "text": "Some actions belong to roles above yours. If a ticket needs something you can't do, escalate it rather than improvising. Escalated tickets leave your queue and are picked up by Admins. Refunds, permanent access grants, and adding or removing staff roles are Admin work too; any staff member can issue or revoke a time-limited Pro grant." },
         { "type": "p", "text": "Escalate early rather than late. An escalation isn't a failure to handle something; it's the correct handling." },
         { "type": "p", "text": "Add a note saying what you've already established. The person picking it up should not have to redo your reading." }
       ]
@@ -135,7 +135,7 @@
           "Never look something up out of curiosity"
         ] },
         { "type": "p", "text": "Some records are access logged, and you'll be told at the point of access when that's the case. That isn't suspicion of you; it's what lets us tell a person honestly who has seen their information." },
-        { "type": "note", "text": "Direct messages between users are end to end encrypted and cannot be read by staff or by SparkStream, including when they're reported. Only what a reporter chooses to submit is readable." }
+        { "type": "note", "text": "Direct messages between users are end to end encrypted: nobody at SparkStream can read a conversation. Reporting is the one exception, and a narrow one. When someone reports a message, the app sends that message plus the five before it for context, and that bundle is readable by the moderation team. Nothing else in the conversation is, and there is no way to ask for more." }
       ]
     },
     {
@@ -144,11 +144,11 @@
       "content": [
         { "type": "p", "text": "Staff accounts can reach other people's data and the business itself, so they carry an extra layer ordinary accounts don't: SparkStream recognises the networks you work from." },
         { "type": "ul", "items": [
-          "Sign in from a network we haven't seen you on before and staff access pauses until you enter a 6-digit code emailed to your account address. Codes are freshly random each time, last 30 minutes, and five wrong attempts kill the code and alert both you and the admins.",
+          "Sign in from a network we haven't seen you on before and staff access pauses until you enter a 6-digit code emailed to your account address. Codes are freshly random each time, last 30 minutes, and five wrong attempts kill the code, tell you by email and in the app, and raise a security alert.",
           "The same email carries a red button for when it wasn't you. It signs out every session on your account and locks your staff access; an admin restores it once your account is secured. Change your Twitch password straight away as well.",
-          "Admins can also lock a staff account outright while something is looked into. A lock is not a sanction and not a demotion: your role, pay and employment record are untouched by it."
+          "Someone above you can also lock your staff account outright while something is looked into, and only someone above you can lift it. A lock is not a sanction and not a demotion: your role, pay and employment record are untouched by it."
         ] },
-        { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it." },
+        { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it. The owner account is warned rather than blocked, because a broken email path would otherwise lock out the one account able to fix it." },
         { "type": "p", "text": "None of this applies to ordinary use of SparkStream as a user. It guards the staff surface only." }
       ]
     },
@@ -158,11 +158,13 @@
       "content": [
         { "type": "p", "text": "Anyone can type a username into a ticket. Before you act on anything sensitive or destructive, a refund, a deletion, an unlock, an account change, confirm you are talking to the account holder." },
         { "type": "ul", "items": [
-          "Never ask for the number itself. Use Request verification, in the ticket or in User Management, and the person confirms their PIN in their own app. You only ever see the result.",
-          "The server holds you to it: unlocking an account or resetting a PIN refuses until a fresh verification exists.",
+          "Never ask for the number itself. Use Request verification, in the ticket or in User Management, and the person confirms in their own app: their PIN, or their card's last 4 digits if they haven't set one. You only ever see the result.",
+          "Where they have neither, a codeword is emailed to them to put in their stream title, and you confirm only whether it appeared. That is the last rung. Below it there is nothing but admin judgement, and we do not ask anyone for ID.",
+          "You cannot verify yourself, and you can only ask someone below your own rank. Ordinary users are below everyone, so normal support work is unaffected. Each person can only be asked once a minute, because every request emails them.",
+          "The server holds you to it: unlocking an account or resetting a PIN refuses until a fresh verification exists. If the person has nothing to verify with, it proceeds and is logged as having done so unverified.",
           "A red disavowal means exactly what it says: whoever is in your conversation is not the account holder. Do not act on that conversation, and tell an admin."
         ] },
-        { "type": "note", "text": "Verification requests also email the account holder, so the real person knows even when someone else is holding their session. Both the request and the result are logged by name, yours included." }
+        { "type": "note", "text": "Verification requests also email the account holder, so the real person knows even when someone else is holding their session. Your request is logged against your name, and the verification itself is recorded on their account with the method and the time." }
       ]
     },
     {
@@ -176,7 +178,7 @@
           "Record a reason that would make sense to the person it's about"
         ] },
         { "type": "p", "text": "Every outcome has to answer two questions: what happens to the content, and what happens to the person. If your action only answers one of them, it isn't finished." },
-        { "type": "p", "text": "Reporters are told the outcome of what they reported. Write your reason knowing somebody will read it." },
+        { "type": "p", "text": "Reporters are told their report was reviewed and whether we acted, never what was done or to whom. Your written reason goes to the person the action is about, so write it for them." },
         { "type": "note", "text": "If a case involves you, someone you know, or anything you have a stake in, hand it to someone else. That's not a rule about trust, it's about the decision being defensible afterwards." }
       ]
     },
@@ -184,9 +186,9 @@
       "id": "training",
       "title": "Practice and training",
       "content": [
-        { "type": "p", "text": "An admin can place practice items in the real queues for you. They're fabricated from top to bottom, no real person is involved, and they behave exactly like real items so the tools become familiar before they matter." },
+        { "type": "p", "text": "An admin can place practice items in the real queues for you. They're fabricated from top to bottom, no real person is involved, and they behave like real items so the tools become familiar before they matter. They are always clearly marked as tests, you can work them while you're off the clock, and they skip the identity check a real ticket needs." },
         { "type": "p", "text": "Practice works even before you're certified, which is the point: you should not be learning the tools on somebody's actual problem." },
-        { "type": "p", "text": "Afterwards you can see what was expected and why. Where a case is genuinely defensible either way, it's marked as such rather than being scored, because a training tool that marks a reasonable call wrong teaches you to distrust it." },
+        { "type": "p", "text": "Afterwards you can see what was expected and why. Only the clearest held post, forum report and DM report cases are marked automatically. Everything harder than that, and every other kind of practice case, goes to an admin to mark beside the model answer, because a training tool that marks a reasonable call wrong teaches you to distrust it." },
         { "type": "note", "text": "Nothing from practice is written into your employment record and it is never grounds for discipline. What an admin can see is a summary of how your recent practice went, worked out fresh each time the page loads and stored nowhere, so somebody can offer you a hand rather than let you struggle quietly. You see the same summary about yourself." }
       ]
     },
@@ -198,12 +200,12 @@
         { "type": "p", "text": "Three things have to be true first, and the system refuses to certify you without them:" },
         { "type": "ul", "items": [
           "Your contract is on file, including your contracted hours. Your pay rate comes from your role (see Roles on the team). If you're employed through an employer of record, that provider is named instead",
-          "Your employment information is on file: your legal name, your contact details and an emergency contact",
+          "Your employment information is on file: your legal name, date of birth, address and phone number, and an emergency contact name and number. If you're employed through an employer of record, only your name, phone number and emergency contact are needed here, because that provider holds the rest",
           "You've read this handbook and confirmed it"
         ] },
         { "type": "p", "text": "The first of those is the company's job, not yours. Nobody can be put to work here before the terms they're working under actually exist, and that isn't something an admin can wave through in a hurry." },
         { "type": "p", "text": "Everything else on your Getting started checklist is useful rather than mandatory." },
-        { "type": "p", "text": "Certification can be withdrawn, for example while retraining. If that happens you're told, and you're told why." }
+        { "type": "p", "text": "Certification can be withdrawn from Staff and Staff Leads, for example while retraining. If that happens you're told, and you're told why. Admin accounts cannot be de-certified; a lock is the tool there." }
       ]
     },
     {
@@ -213,10 +215,10 @@
         { "type": "p", "text": "We'd rather tell you this plainly than have you discover it." },
         { "type": "ul", "items": [
           "Hours worked, tickets answered and response times are recorded",
-          "Occasional fabricated cases are put through the real queues as spot checks, so you'll know it happens but not when",
+          "Fabricated practice cases are placed in the real queues. They are always clearly marked as tests, never covert, and nothing you do on one counts towards your figures",
           "Access to the most sensitive records is logged"
         ] },
-        { "type": "p", "text": "None of this is scored against you individually as a target. Time a queue spent overdue is shared across whoever was on duty rather than pinned on one person, because a backlog is a staffing problem, not a personal one." },
+        { "type": "p", "text": "None of this is scored against you individually as a target. Time a ticket sits overdue before anyone has claimed it is shared across whoever was on duty rather than pinned on one person, because an unclaimed backlog is a staffing problem. Once a ticket is yours, time past the target counts with you, which is the part you can actually do something about." },
         { "type": "p", "text": "If something in these figures looks unfair, say so. It's been changed before on exactly that basis." }
       ]
     },
@@ -225,7 +227,7 @@
       "title": "Your employment record",
       "content": [
         { "type": "p", "text": "My Employment holds your contract, contracted hours, rate, hours actually worked this week and month, and an estimated pay figure where a rate is on file. That figure is estimated from hours worked, is before tax and deductions, and is a convenience total rather than a payslip." },
-        { "type": "p", "text": "Your legal name, date of birth, address, phone number and emergency contact are held encrypted. If you're employed through an employer of record, we hold less, because they hold your payroll identity." },
+        { "type": "p", "text": "Your legal name, date of birth, address, phone number, National Insurance or tax number, and emergency contact are held encrypted. If you're employed through an employer of record, we hold less, because they hold your payroll identity." },
         { "type": "p", "text": "An admin reading those details leaves an audit entry, and the button says so before they press it." },
         { "type": "p", "text": "Your record also holds anything written down about your work: notes, a promotion or a change of pay, times we offered support, and, if it ever comes to it, a concern raised or a formal warning." },
         { "type": "p", "text": "You can read all of it, any time, on My Record. There is no second version of your file kept somewhere you cannot see. Anything you are asked to acknowledge stays marked as waiting until you confirm you have read it, and you are the only person who can confirm it." },
@@ -239,12 +241,12 @@
       "title": "Paid time off",
       "content": [
         { "type": "p", "text": "You get paid annual leave. UK law sets the standard we work to, and if your own country entitles you to more than that, you get the better of the two." },
-        { "type": "p", "text": "Three base days are added on top of what you build up, each leave year. In your first weeks they unlock in steps rather than all at once: the first day once you have been on the team two weeks and worked 16 hours, the second at four weeks and 40 hours, the third at eight weeks and 80 hours. The steps keep flexibility arriving early while making sure paid leave always tracks real work, and the Staff Hub shows you exactly where you are against the next one." },
-        { "type": "p", "text": "The steps are climbed once, ever: from your second leave year onwards, all three days are available from the first day of the year." },
+        { "type": "p", "text": "Three base days are added on top of what you build up, each leave year. In your first weeks they unlock in steps rather than all at once: the first day once you have been certified two weeks and worked 16 hours since, the second at four weeks and 40 hours, the third at eight weeks and 80 hours. Both clocks run from certification, because that is when you can first be put to work. The steps keep flexibility arriving early while making sure paid leave always tracks real work, and My Employment, under Time off and leave, shows you exactly where you are against the next one." },
+        { "type": "p", "text": "The steps are climbed once, ever: once you have passed the last of them, every later leave year's three days are available from its first day." },
         { "type": "p", "text": "On top of those, leave builds up as you work, at the statutory rate of 12.07% of the hours you work. In round terms that's about an hour of paid leave for every eight hours worked. There's no cap: a heavier month earns more leave, always." },
         { "type": "p", "text": "It's counted in hours rather than days because shifts here vary in length. Counting in days would mean guessing how long your day is, and that guess would be wrong for somebody." },
         { "type": "p", "text": "The leave year runs 1 April to 31 March." },
-        { "type": "note", "text": "Booking leave costs you the hours you were scheduled to work in that period. If no shifts were posted across the dates you book, it costs you nothing, because there was nothing to take off. Your balance and what each booking used are both shown in the Staff Hub." }
+        { "type": "note", "text": "Booking leave costs you the hours you were scheduled to work in that period. If no shifts were posted across the dates you book, it costs you nothing, because there was nothing to take off. Your balance and what each booking used are both shown in My Employment, under Time off and leave." }
       ]
     },
     {
@@ -255,11 +257,11 @@
         { "type": "ul", "items": [
           "The part you built up from hours worked this year carries over into the next leave year, once",
           "Anything still left of what you carried in from the year before lapses: leave rolls over one year and no further",
-          "The three base days, and anything extra added on top, are paid to you instead"
+          "Whichever of the three base days you have unlocked, and anything extra added on top, are paid to you instead. Days that never unlocked are not paid out, because they were never yours to take"
         ] },
         { "type": "p", "text": "Leave you take is counted against the oldest part of your balance first: carried hours before this year's, this year's before the paid-out pot. That's deliberate and in your favour, because the part closest to lapsing is always the part being spent." },
         { "type": "p", "text": "The one-year limit exists because statutory leave is for resting, not for banking: without it, years of untaken leave could pile into months of paid absence, which helps nobody and least of all the person who never rested. The law works the same way, and is in fact stricter than this." },
-        { "type": "p", "text": "You will never lose leave silently. The app reminds you to take your leave as the year end approaches, more insistently the closer it gets, and tells you exactly what would lapse and when. If leave is about to lapse, an admin is told too, so getting you time off becomes the team's job rather than something you were supposed to remember alone. Leave you couldn't take because of sickness or family leave doesn't lapse: tell an admin and it is restored on top." },
+        { "type": "p", "text": "You will never lose leave silently. The app reminds you to take your leave as the year end approaches, more insistently the closer it gets, and tells you exactly what would lapse and when. If leave is about to lapse, an admin is told too, so getting you time off becomes the team's job rather than something you were supposed to remember alone. Leave you couldn't take because of sickness or family leave doesn't lapse. The app has no button for that one: tell an admin and it is put right by hand." },
         { "type": "note", "text": "The balance shown in the app is a record of your entitlement, not a payslip. Actual payment goes through payroll. If the two ever disagree, payroll is the one that counts and the app is the one that's wrong." }
       ]
     },
@@ -267,12 +269,12 @@
       "id": "sick-leave",
       "title": "If you're ill",
       "content": [
-        { "type": "p", "text": "Report sick from the Staff Hub. There is no approval step, because being ill is a notification, not a request. The moment you report it, your upcoming shifts are offered to the team for cover, admins are told, and you are done: rest." },
+        { "type": "p", "text": "Report sick from My Employment in the Staff Hub, under Sickness and absence. There is no approval step, because being ill is a notification, not a request. The moment you report it, your upcoming shifts are offered to the team for cover, admins are told, and you are done: rest." },
         { "type": "p", "text": "Sick pay runs from day one. There are no unpaid waiting days here, whatever the law of the day allows. For the first six weeks of a sickness you are paid your full average earnings, worked out over your last eight normal weeks, the same as the first weeks of family leave. After that, the statutory rate applies for as long as the law provides. Payment itself goes through payroll." },
         { "type": "p", "text": "You can self-certify for up to seven days. Past seven days we ask for a fit note from a doctor, which is the standard rule and the only paperwork involved." },
         { "type": "ul", "items": [
           "Your paid leave keeps building up while you are off sick, at your normal rhythm",
-          "If you fall ill during booked annual leave, tell an admin: those days convert to sick leave and your holiday is restored",
+          "If you fall ill during booked annual leave, those days count as sick leave and your holiday is restored. Approved leave can't be reversed in the app, so tell an admin and it is corrected by hand",
           "Nothing can be scheduled for you while a sickness is recorded, and you cannot pick up shifts either. Rest is the job"
         ] },
         { "type": "note", "text": "When you are better, end the sickness from the same place you reported it. Nobody chases you while it is open." }
@@ -293,9 +295,9 @@
       "title": "Changing your details and requesting time off",
       "content": [
         { "type": "p", "text": "You can update where you're based and the hours you usually work yourself, once every 30 days. Inside that window the change becomes a request an admin approves, because availability changing at will fights the shift scheduler. Either way you hear back." },
-        { "type": "p", "text": "Time off is requested in whole days from the Staff Hub. You're told when it's decided, and the reason if it's declined." },
+        { "type": "p", "text": "Time off is requested in whole days from My Employment in the Staff Hub, under Time off and leave. You're told when it's decided, and the reason if it's declined." },
         { "type": "p", "text": "Your country and working window are recommendations to whoever is planning cover. They never restrict what you can be offered or what you can take." },
-        { "type": "p", "text": "If you're employed through an employer of record, your leave is worked out here on exactly the same terms as everyone else's, and your employer of record administers it. The terms in this handbook are a floor, never a ceiling: where your own country's law grants you more, you get the more. Requests still go through the Staff Hub so cover can be planned." }
+        { "type": "p", "text": "If you're employed through an employer of record, your leave is worked out here on exactly the same terms as everyone else's, and your employer of record administers it. The terms in this handbook are a floor, never a ceiling: where your own country's law grants you more, you get the more. Requests still go through My Employment, under Time off and leave, so cover can be planned." }
       ]
     },
     {

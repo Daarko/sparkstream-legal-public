@@ -1,6 +1,6 @@
 {
-  "version": "0.13.0",
-  "effective": { "version": "0.13.0", "date": "1 August 2026" },
+  "version": "0.13.1",
+  "effective": { "version": "0.13.1", "date": "1 August 2026" },
   "documents": [
     {
       "id": "privacy",
@@ -107,7 +107,7 @@
         { "type": "h3", "text": "5. Community Hub and conduct" },
         { "type": "p", "text": "The Community Hub is a shared space. Keep it civil and constructive. SparkStream staff may moderate, edit, or remove content, and may restrict or remove your access to community features, for conduct that breaks these terms or harms others. If you believe a moderation decision was wrong, you can appeal by opening a support ticket." },
         { "type": "h3", "text": "6. Direct messages" },
-        { "type": "p", "text": "Direct messages are end to end encrypted between users. SparkStream cannot read them, and SparkStream staff will never message you through the feature. Treat anyone in your DMs claiming to be SparkStream as an impersonator. You can report a message for review, which shares that message with staff. To comply with our legal safety obligations, reported messages will be reviewed for illegal content or abuse. Using direct messages to harass, scam, or abuse others can result in your messaging access being removed." },
+        { "type": "p", "text": "Direct messages are end to end encrypted between users. SparkStream cannot read them, and SparkStream staff will never message you through the feature. Treat anyone in your DMs claiming to be SparkStream as an impersonator. You can report a message for review, which shares that message and the five before it, for context, with staff. You see exactly what will be sent before you send it, and nothing else in the conversation is shared. To comply with our legal safety obligations, reported messages will be reviewed for illegal content or abuse. Using direct messages to harass, scam, or abuse others can result in your messaging access being removed." },
         { "type": "h3", "text": "7. Pro, credits, and billing" },
         { "type": "p", "text": "Pro features need an active Pro subscription, which is billed through Stripe. Pro access runs on a credit system where one credit is one day of Pro. Your subscription tops up credits, and credits drain by one per day, which gives you a grace period if a payment is late. Pro is tied to your Twitch account and is not transferable. Bonus credits from referrals or loyalty are a thank you, not a cash equivalent, and cannot be exchanged for money. You can cancel any time through the billing portal. Fees already paid are non refundable except where the law requires otherwise. If prices or what Pro includes change, you will be told in advance." },
         { "type": "h3", "text": "8. Chargebacks and payment disputes" },

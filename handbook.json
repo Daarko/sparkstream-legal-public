@@ -1,7 +1,7 @@
 {
-  "version": "1.10.1",
-  "ackVersion": 11,
-  "effective": { "version": "1.10.1", "date": "1 August 2026" },
+  "version": "1.12.0",
+  "ackVersion": 13,
+  "effective": { "version": "1.12.0", "date": "5 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -146,7 +146,7 @@
         { "type": "ul", "items": [
           "Sign in from a network we haven't seen you on before and staff access pauses until you enter a 6-digit code emailed to your account address. Codes are freshly random each time, last 30 minutes, and five wrong attempts kill the code, tell you by email and in the app, and raise a security alert.",
           "The same email carries a red button for when it wasn't you. It signs out every session on your account and locks your staff access; an admin restores it once your account is secured. Change your Twitch password straight away as well.",
-          "Someone above you can also lock your staff account outright while something is looked into, and only someone above you can lift it. A lock is not a sanction and not a demotion: your role, pay and employment record are untouched by it."
+          "Someone above you can also lock your staff account outright while something is looked into, and only someone above you can lift it. A lock is not a sanction and not a demotion: your role and your employment record are untouched by it.", "A lock is paid. You are not working because we stopped you working, so you are paid in full for the whole of it, on exactly the same basis as a suspension: whichever is greater of your average weekly hours over your last eight normal weeks or your contracted week, fixed at the moment the lock goes on. Your paid leave keeps building at the same rate, and any shifts in your diary are put up for cover so you are not marked down for missing them. That holds however the lock started, including when you set it off yourself by reporting a sign-in you did not recognise: telling us your account may be compromised is the right thing to do, and it will never cost you money."
         ] },
         { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it. The owner account is warned rather than blocked, because a broken email path would otherwise lock out the one account able to fix it." },
         { "type": "p", "text": "None of this applies to ordinary use of SparkStream as a user. It guards the staff surface only." }
@@ -234,6 +234,22 @@
         { "type": "p", "text": "An entry written in error is withdrawn rather than deleted, with the reason attached, so you can see both that it was there and why it no longer stands." },
         { "type": "note", "text": "We never ask for your bank details in the app. Payment details are collected in the payroll process outside it." },
         { "type": "note", "text": "If something in your record is wrong, say so. You are entitled to a copy of everything we hold about you, and to have what is inaccurate corrected." }
+      ]
+    },
+    {
+      "id": "suspension",
+      "title": "If you are suspended from duties",
+      "content": [
+        { "type": "p", "text": "Sometimes something has to be looked into, and the fair way to do that is with you out of the middle of it. Being suspended from duties means you are asked not to work while that happens. It is not a punishment, it is not a finding, and it is not a dismissal. It says nothing about the outcome, because there isn't one yet." },
+        { "type": "p", "text": "You are paid in full for the whole of it. Full means a real number, not a reassurance: your pay is set at whichever is greater, your average weekly hours over your last eight normal weeks or your contracted week, and it is fixed at the moment the suspension starts. It cannot drift down while it runs, however long it runs. You are told the figure when it begins, it is on your own pay screen throughout, and it goes to payroll as a paid period the same way sick leave does." },
+        { "type": "p", "text": "Everything else about your employment carries on unchanged. Your role, your rate and your contract are untouched. Your paid leave keeps building up at the same rhythm, exactly as it does through sickness. Any shifts already in your diary are put up for cover, so you are not marked down for missing work you were told not to do." },
+        { "type": "p", "text": "You are told why, in writing, in words you can read for yourself, and with a date it will be looked at again. It is kept as short as we can manage. If it has to run past that date, you are told that it is continuing and given a fresh reason, because a suspension nobody has to justify twice is how somebody ends up sitting at home for a month." },
+        { "type": "ul", "items": [
+          "You keep your own record, your own pay and hours, and your own shift history, and you can read all of it while suspended",
+          "You keep the right to answer, and to appeal anything that ends up written down",
+          "You are not suspended for raising a concern. That is covered separately, and doing it is protected"
+        ] },
+        { "type": "note", "text": "A suspension is not the same as a security lock on your account. A lock is about whether your sign-in can be trusted right now, usually after an unrecognised sign-in, and it says nothing at all about your work. The app tells you which one you are looking at. They are paid the same way, for the same reason: in both cases it is us stopping you working." }
       ]
     },
     {

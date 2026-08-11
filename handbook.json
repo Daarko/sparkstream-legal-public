@@ -1,7 +1,7 @@
 {
-  "version": "1.12.0",
-  "ackVersion": 13,
-  "effective": { "version": "1.12.0", "date": "5 August 2026" },
+  "version": "1.13.0",
+  "ackVersion": 14,
+  "effective": { "version": "1.13.0", "date": "11 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -132,8 +132,10 @@
         { "type": "ul", "items": [
           "Never share what you see outside the team",
           "Never use it for anything other than resolving the thing in front of you",
-          "Never look something up out of curiosity"
+          "Never look something up out of curiosity",
+          "Never use it for financial gain, yours or anyone else's"
         ] },
+        { "type": "p", "text": "That last one binds the company as much as it binds you, and it is written here so you have something to point at. Nobody will ask you to use what you can see to make SparkStream money: not to find sales leads, not to decide what to charge, not to shape a pitch to a partner. Our income comes from people choosing to pay us, and never from what we happen to know about them. If you are ever asked to do otherwise, refusing is the right answer, and \"If something goes wrong\" tells you how to raise it." },
         { "type": "p", "text": "Some records are access logged, and you'll be told at the point of access when that's the case. That isn't suspicion of you; it's what lets us tell a person honestly who has seen their information." },
         { "type": "note", "text": "Direct messages between users are end to end encrypted: nobody at SparkStream can read a conversation. Reporting is the one exception, and a narrow one. When someone reports a message, the app sends that message plus the five before it for context, and that bundle is readable by the moderation team. Nothing else in the conversation is, and there is no way to ask for more." }
       ]

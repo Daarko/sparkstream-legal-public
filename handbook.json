@@ -1,7 +1,7 @@
 {
-  "version": "1.13.0",
-  "ackVersion": 14,
-  "effective": { "version": "1.13.0", "date": "11 August 2026" },
+  "version": "1.14.0",
+  "ackVersion": 15,
+  "effective": { "version": "1.14.0", "date": "26 August 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -236,6 +236,24 @@
         { "type": "p", "text": "An entry written in error is withdrawn rather than deleted, with the reason attached, so you can see both that it was there and why it no longer stands." },
         { "type": "note", "text": "We never ask for your bank details in the app. Payment details are collected in the payroll process outside it." },
         { "type": "note", "text": "If something in your record is wrong, say so. You are entitled to a copy of everything we hold about you, and to have what is inaccurate corrected." }
+      ]
+    },
+    {
+      "id": "discipline",
+      "title": "Concerns, warnings and appeals",
+      "content": [
+        { "type": "p", "text": "Most things that go wrong are handled in a conversation and never written down. This section is about the times something is written down, because that is when you need to know exactly what it means and what you can do about it." },
+        { "type": "p", "text": "Three things can be put on your record about your conduct: a concern, a written warning, and a final written warning. They are three separate things rather than one thing set to three strengths, because an informal word, a first warning and a last one carry different weight for you and different obligations for us." },
+        { "type": "p", "text": "Before any of them is written, you are told what it is about and given the chance to answer. That part happens in conversation rather than in the app. The app holds what was decided, not the discussion that got there." },
+        { "type": "p", "text": "Any of the three has to be written by an admin ranked above you. Nobody can write one about somebody at their own level or above it, and the server refuses it rather than leaving it to good manners." },
+        { "type": "p", "text": "You are told when one is written, and it sits marked as waiting on your record until you confirm you have read it. Confirming means you have read it. It does not mean you agree." },
+        { "type": "p", "text": "A written warning counts for six months. A final written warning counts for twelve. The term is fixed at the moment the warning is written and cannot be changed afterwards by anybody, including by changing what the terms are for later warnings. When it runs out the warning lapses: it stays on your file where you can still see it, and it counts towards nothing." },
+        { "type": "p", "text": "Nothing escalates on its own. There is no tally that adds up, and no step follows automatically from the step before it. Every decision about your employment is one a person makes and has to justify at the time they make it." },
+        { "type": "p", "text": "You can appeal a concern, a warning or a final warning. There is no deadline for doing it. You say what you disagree with in your own words, and it attaches to the entry itself, so your record can never show a warning without also showing that you challenged it." },
+        { "type": "p", "text": "An appeal is decided by somebody ranked above you who did not write the entry, and everyone who could hear it is told one is waiting. There are two possible answers: it stands, or it is overturned. An entry that is overturned is withdrawn from your record. Either way you are given the reasons in writing, and either way you are told." },
+        { "type": "p", "text": "If the right answer turns out to be a lesser entry, the original is withdrawn and the lesser one written, so both halves stay readable on the file. Nothing is quietly rewritten into something else after the fact." },
+        { "type": "note", "text": "Honesty about a limit, the same one the section on raising concerns names. An appeal is heard by somebody other than whoever made the decision, wherever there is somebody to hear it. Above the owner there is nobody, so an entry the owner wrote is one the owner decides the appeal on. The genuinely independent routes are the external ones named in that section, and they apply to this just as much." },
+        { "type": "p", "text": "Three things are deliberately no part of this. Practice cases are never grounds for discipline and nothing from them reaches your record. Your figures are not scored against you as an individual target. Being suspended from duties is not a punishment and not a finding, and it has its own section." }
       ]
     },
     {

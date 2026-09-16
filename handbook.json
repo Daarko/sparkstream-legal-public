@@ -1,7 +1,7 @@
 {
-  "version": "1.14.0",
-  "ackVersion": 15,
-  "effective": { "version": "1.14.0", "date": "26 August 2026" },
+  "version": "1.15.0",
+  "ackVersion": 16,
+  "effective": { "version": "1.15.0", "date": "16 September 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -99,6 +99,25 @@
       ]
     },
     {
+      "id": "homeworking",
+      "title": "Working from home",
+      "content": [
+        { "type": "p", "text": "SparkStream has no office and none is planned, so your home is the workplace. That makes the health and safety side of it a real duty rather than a formality: it follows you home, and this section is what the company owes you for that and the little it asks back." },
+        { "type": "p", "text": "When you join, once a year after that, and whenever your setup changes in a way that matters, you fill in a short workstation self-assessment: chair, desk, screen position, lighting and cables. It takes minutes, it is self-reported, and it is trusted, because nobody from the company enters or inspects your home." },
+        { "type": "p", "text": "The assessment exists to be acted on. Where it shows something missing or wrong, the company puts it right rather than filing the answer, because an assessment that only produces a record has protected nobody." },
+        { "type": "p", "text": "Screen work entitles you to an eye test at the company's expense whenever one is due, and to glasses where they are needed specifically for screen work. That is the law, and we pay without being chased." },
+        { "type": "ul", "items": [
+          "Your shifts are the work. Outside them nothing is owed, no reply is expected, and being unreachable at your own kitchen table is never quietly banked against you",
+          "Rest has no opt-out. The caps you can lift change what may be scheduled, never the rest between shifts",
+          "Equipment that fails gets replaced, not investigated for blame, and a safety worry about your setup is something to raise rather than live with",
+          "An accident or injury while working is reported the same day, in writing, however minor it seems. Any statutory reporting that follows is the company's job and never yours"
+        ] },
+        { "type": "p", "text": "Monitoring is exactly what this handbook discloses and nothing more: your on-duty status while you are on shift, and the access records named elsewhere in it. No cameras, no screen recording, no keystroke logging, and nothing hidden inside the tools you work with. If the company ever wanted a tool that watches in a way this section does not describe, this section is amended first, with notice, before the tool exists. The policy leads and the software follows." },
+        { "type": "p", "text": "Working from home can be isolating, and that is treated as a working condition rather than a personality trait. There is a regular rhythm of actual conversation with the people you work with, and it is there to be human contact, never a check-in. Mental health is health: the section on being ill asks no different evidence and gives no different treatment." },
+        { "type": "note", "text": "If the work itself is grinding you down, say so. A plain conversation is usually enough, and the grievance route is there if it needs one." }
+      ]
+    },
+    {
       "id": "tickets-priority",
       "title": "Support tickets: priority",
       "content": [
@@ -148,7 +167,8 @@
         { "type": "ul", "items": [
           "Sign in from a network we haven't seen you on before and staff access pauses until you enter a 6-digit code emailed to your account address. Codes are freshly random each time, last 30 minutes, and five wrong attempts kill the code, tell you by email and in the app, and raise a security alert.",
           "The same email carries a red button for when it wasn't you. It signs out every session on your account and locks your staff access; an admin restores it once your account is secured. Change your Twitch password straight away as well.",
-          "Someone above you can also lock your staff account outright while something is looked into, and only someone above you can lift it. A lock is not a sanction and not a demotion: your role and your employment record are untouched by it.", "A lock is paid. You are not working because we stopped you working, so you are paid in full for the whole of it, on exactly the same basis as a suspension: whichever is greater of your average weekly hours over your last eight normal weeks or your contracted week, fixed at the moment the lock goes on. Your paid leave keeps building at the same rate, and any shifts in your diary are put up for cover so you are not marked down for missing them. That holds however the lock started, including when you set it off yourself by reporting a sign-in you did not recognise: telling us your account may be compromised is the right thing to do, and it will never cost you money."
+          "Someone above you can also lock your staff account outright while something is looked into, and only someone above you can lift it. A lock is not a sanction and not a demotion: your role and your employment record are untouched by it.",
+          "A lock is paid. You are not working because we stopped you working, so you are paid in full for the whole of it, on exactly the same basis as a suspension: whichever is greater of your average weekly hours over your last eight normal weeks or your contracted week, fixed at the moment the lock goes on. Your paid leave keeps building at the same rate, and any shifts in your diary are put up for cover so you are not marked down for missing them. That holds however the lock started, including when you set it off yourself by reporting a sign-in you did not recognise: telling us your account may be compromised is the right thing to do, and it will never cost you money."
         ] },
         { "type": "note", "text": "What this stores: never your actual IP address. We keep a scrambled per-person code derived from the network, which can't be reversed and can't be matched across people, plus a masked form like 86.152.x.x used in the email and admin alerts. Your first network is trusted automatically. Keep an email address on your account: without one, every new network needs an admin to approve it. The owner account is warned rather than blocked, because a broken email path would otherwise lock out the one account able to fix it." },
         { "type": "p", "text": "None of this applies to ordinary use of SparkStream as a user. It guards the staff surface only." }
@@ -239,21 +259,48 @@
       ]
     },
     {
+      "id": "staff-privacy",
+      "title": "What we hold about you",
+      "content": [
+        { "type": "p", "text": "SparkStream App Ltd is the data controller for the personal information it holds about you as a member of staff, and you are owed a plain account of what that is, why, who sees it and for how long. The posture is the one users get: the bare minimum, held for a named reason, visible to you, and never traded. Working here does not put you on the other side of that principle." },
+        { "type": "ul", "items": [
+          "Your contract and identity: who you are, your role, your contracted hours, your country, and your written terms, held encrypted",
+          "Your working time: shifts, on-duty periods, breaks, and any working-time opt-out you have made, including which version of the agreement you accepted, because the law requires that agreement to be kept",
+          "Your leave and absence: accrual, bookings, adjustments with their reasons, and sickness records, including fit notes where the section on being ill asks for them",
+          "Your employment record: the decisions that concern you, each with its written reason, and anything the sections on concerns, grievances, harassment and speaking up produce"
+        ] },
+        { "type": "p", "text": "Health information is held under the employment law provisions that exist for exactly that, and is shared with nobody who has no part in it. Corrections are new entries rather than silent edits, here as everywhere else in your record." },
+        { "type": "p", "text": "The purposes are named plainly, because a lawful basis is a label and the purpose is the truth. Your contract details are held to employ and pay you. Your working time records because the law requires them, and because the scheduling limits that protect you cannot work without them. Your leave and sickness records to pay you correctly and to keep the promises this handbook makes. Your employment record because employment law requires it, and because written reasons are how fairness stays checkable here." },
+        { "type": "p", "text": "Nothing is held for marketing or profiling, and nothing is collected just in case. A new purpose means this section changes first and you are told, rather than left to notice." },
+        { "type": "p", "text": "Inside the company, access follows role: nobody reads what they have no part in, and the records those sections produce reach only the people needed to act on them. Outside it, the whole list is payroll processing, an employer of record where one administers your employment, and the tax and statutory bodies the law requires. Nothing about you is sold, which is the same sentence users are given." },
+        { "type": "p", "text": "Employment records are kept for the periods employment, tax and safety law set: through your employment, and for the required years after it. When the required period ends, so does the record. Honesty about what that means: while a statutory period is running, an erasure request cannot remove those records, whoever asks. The law decides that retention, and pretending otherwise would be a promise this handbook could not keep." },
+        { "type": "note", "text": "You can export the whole of your record at any time, yourself, from the app, and what you export is identical to what the company sees. Access here is not a request with a deadline, it is a button." }
+      ]
+    },
+    {
       "id": "discipline",
       "title": "Concerns, warnings and appeals",
       "content": [
         { "type": "p", "text": "Most things that go wrong are handled in a conversation and never written down. This section is about the times something is written down, because that is when you need to know exactly what it means and what you can do about it." },
         { "type": "p", "text": "Three things can be put on your record about your conduct: a concern, a written warning, and a final written warning. They are three separate things rather than one thing set to three strengths, because an informal word, a first warning and a last one carry different weight for you and different obligations for us." },
         { "type": "p", "text": "Before any of them is written, you are told what it is about and given the chance to answer. That part happens in conversation rather than in the app. The app holds what was decided, not the discussion that got there." },
+        { "type": "p", "text": "You can only be held to a rule that was written down and readable before the thing you are said to have done. This handbook and your contract are those rules. Nothing is applied retroactively, and everybody knows you should not is not a rule. If a rule turns out to be unclear, the lack of clarity counts in your favour, and the fix is that the rule gets rewritten, for everyone, going forward." },
+        { "type": "p", "text": "Facts are established before anything is decided. Where the size of the team allows, the person who looks into a matter is not the person who raised it, and is never the person it is about. Nobody decides their own case, in either direction." },
         { "type": "p", "text": "Any of the three has to be written by an admin ranked above you. Nobody can write one about somebody at their own level or above it, and the server refuses it rather than leaving it to good manners." },
         { "type": "p", "text": "You are told when one is written, and it sits marked as waiting on your record until you confirm you have read it. Confirming means you have read it. It does not mean you agree." },
+        { "type": "p", "text": "Before any hearing you are given, in writing and with enough time to prepare, what you are said to have done, the evidence, and the outcomes that are possible. You will never walk into a room to find out why you are there. You may be accompanied by a colleague or a trade union representative, which is your legal right, and asking for that changes nothing about how you are treated." },
+        { "type": "p", "text": "The formal outcomes, in increasing order of seriousness, are a first written warning, a final written warning, and dismissal. A step can be skipped only where the matter is serious enough to justify it, and the reason for skipping it is part of the written decision." },
+        { "type": "p", "text": "Gross misconduct means dismissal can follow a single act, after the full procedure above and never on the spot. It means things of this order: violence, theft or fraud, harassment, working under the influence to a degree that endangers people, and deliberate misuse of user data or private communications. That last one is named because trust in how we treat user data is what this company is, and taking a liberty with it is taking a liberty with everything." },
         { "type": "p", "text": "A written warning counts for six months. A final written warning counts for twelve. The term is fixed at the moment the warning is written and cannot be changed afterwards by anybody, including by changing what the terms are for later warnings. When it runs out the warning lapses: it stays on your file where you can still see it, and it counts towards nothing." },
         { "type": "p", "text": "Nothing escalates on its own. There is no tally that adds up, and no step follows automatically from the step before it. Every decision about your employment is one a person makes and has to justify at the time they make it." },
-        { "type": "p", "text": "You can appeal a concern, a warning or a final warning. There is no deadline for doing it. You say what you disagree with in your own words, and it attaches to the entry itself, so your record can never show a warning without also showing that you challenged it." },
+        { "type": "p", "text": "You can appeal a concern, a warning or a final warning, in writing, within ten working days of the written decision. You say what you disagree with in your own words, and it attaches to the entry itself, so your record can never show a warning without also showing that you challenged it." },
         { "type": "p", "text": "An appeal is decided by somebody ranked above you who did not write the entry, and everyone who could hear it is told one is waiting. There are two possible answers: it stands, or it is overturned. An entry that is overturned is withdrawn from your record. Either way you are given the reasons in writing, and either way you are told." },
+        { "type": "p", "text": "The company may also bring in an independent third party to adjudicate an appeal, and will lean towards doing so where independence matters most: a dismissal, or a case where the person who made the original decision is the only person senior enough to hear it. Where an outside adjudicator hears the case, their decision is the one that stands." },
+        { "type": "p", "text": "Appealing never makes an outcome worse. An appeal that fails leaves you exactly where you were." },
         { "type": "p", "text": "If the right answer turns out to be a lesser entry, the original is withdrawn and the lesser one written, so both halves stay readable on the file. Nothing is quietly rewritten into something else after the fact." },
         { "type": "note", "text": "Honesty about a limit, the same one the section on raising concerns names. An appeal is heard by somebody other than whoever made the decision, wherever there is somebody to hear it. Above the owner there is nobody, so an entry the owner wrote is one the owner decides the appeal on. The genuinely independent routes are the external ones named in that section, and they apply to this just as much." },
-        { "type": "p", "text": "Three things are deliberately no part of this. Practice cases are never grounds for discipline and nothing from them reaches your record. Your figures are not scored against you as an individual target. Being suspended from duties is not a punishment and not a finding, and it has its own section." }
+        { "type": "p", "text": "Three things are deliberately no part of this. Practice cases are never grounds for discipline and nothing from them reaches your record. Your figures are not scored against you as an individual target. Being suspended from duties is not a punishment and not a finding, and it has its own section." },
+        { "type": "p", "text": "These matters are private. They are never discussed with people who have no part in them, never referenced in public channels, and a lapsed warning is not disclosed in any reference. All of it follows the Acas Code of Practice, which is the standard UK employment law measures a fair procedure against." }
       ]
     },
     {
@@ -270,6 +317,58 @@
           "You are not suspended for raising a concern. That is covered separately, and doing it is protected"
         ] },
         { "type": "note", "text": "A suspension is not the same as a security lock on your account. A lock is about whether your sign-in can be trusted right now, usually after an unrecognised sign-in, and it says nothing at all about your work. The app tells you which one you are looking at. They are paid the same way, for the same reason: in both cases it is us stopping you working." }
+      ]
+    },
+    {
+      "id": "grievance",
+      "title": "Raising a grievance",
+      "content": [
+        { "type": "p", "text": "A grievance is anything about your work, your conditions or how you are being treated that is wrong for you: a decision that feels unfair, a working relationship that has gone bad, a promise this company made in writing that you do not think it is keeping. The section on concerns and warnings is the company's process about conduct. This one is yours, about anything, and it runs on the same spine: written reasons, identical rules for everyone, and records you can read and export exactly as the company can." },
+        { "type": "p", "text": "Most things are fixed by saying them while they are small. Raise it with the person it concerns, or with whoever you report to, in whatever way feels natural. No file is opened and nothing formal begins. If the problem is the person you would normally raise it with, go to anyone senior to them instead, or straight to the formal route. You never owe a conversation to the person the problem is about." },
+        { "type": "p", "text": "To raise it formally, put it in writing: what happened, when, who was involved, and what you think would put it right. That last part matters, because a grievance is a request for something to change, and knowing what you are asking for is how the company can actually answer it." },
+        { "type": "ul", "items": [
+          "You get a written acknowledgement within three working days, naming who will hear it. That person is never the subject of the grievance, and where the size of the team allows, was not involved in what it concerns",
+          "A meeting is held promptly, normally within five working days of the acknowledgement. We all work from home, so it happens by video call, at a time that works for you",
+          "You may be accompanied by a colleague or a trade union representative, which is your legal right, and asking for that changes nothing about how the grievance is treated",
+          "You receive the decision in writing with its reasons, normally within five working days of the meeting. If it upholds your grievance it says what will change and by when. If it does not, it says why, in enough detail that you could disagree with the actual reasoning rather than a verdict"
+        ] },
+        { "type": "p", "text": "Where the facts are disputed they are looked into before a decision, not after it, and you are told what was checked. Where fixing the problem means changing a rule, the rule is changed for everyone, going forward: a grievance that exposes a bad rule has done the company a service, and the record should read that way." },
+        { "type": "p", "text": "If you disagree with the decision you can appeal in writing within ten working days, saying why. The appeal is heard fresh by somebody not previously involved wherever the size of the team allows, and the company may bring in an independent third party, whose decision stands. It will lean towards doing that for any grievance that concerns the owner, who in a company this small may otherwise be the only person senior enough to hear it. Appealing never makes anything worse." },
+        { "type": "p", "text": "Raising a grievance in good faith is never a mark against you. It cannot appear in any reference, it cannot be a factor in any later decision about you, and treating somebody worse for having raised one is itself a matter for the concerns and warnings section." },
+        { "type": "note", "text": "Nobody hears a grievance about themselves, the owner included. Where no colleague is senior enough to hear it, the company brings in an independent third party and their finding stands. What you can rely on either way is the same: heard on the record, answered in writing with reasons, and raising it changes nothing about how you are treated." }
+      ]
+    },
+    {
+      "id": "harassment",
+      "title": "Harassment, and abuse from users",
+      "content": [
+        { "type": "p", "text": "Everyone who works here does so with dignity, and this section is how that stays true. It covers harassment from colleagues and from the people our work puts you in front of, and it applies everywhere work happens: staff channels, direct messages, video calls, the moderation and support queues, and the community spaces we run." },
+        { "type": "p", "text": "Harassment is unwanted conduct that violates somebody's dignity, or that creates an intimidating, hostile, degrading, humiliating or offensive environment for them, whether or not it relates to a protected characteristic such as sex, race, disability, sexual orientation, religion, age or gender reassignment. Sexual harassment is unwanted conduct of a sexual nature, and it is named separately because the law requires employers to actively prevent it rather than merely respond to it." },
+        { "type": "p", "text": "Conduct is judged by its effect, not its intent. It was a joke describes the intent; what matters is the landing. One incident can be enough. Because all work here is remote, it mostly arrives written or spoken down a wire: messages that single somebody out, sexual remarks or images, comments on somebody's body or private life, persistent unwanted contact after being asked to stop, deliberate exclusion from the channels where work happens, and threats or intimidation of any kind. That is not a complete list and does not need to be. If conduct is making somebody's work life worse and a reasonable person could see why, this section covers it." },
+        { "type": "p", "text": "Harassment by a colleague is a matter for the concerns and warnings section, and serious or sexual harassment sits in gross misconduct, where dismissal can follow a single act after a fair process. Rank changes nothing: a report about the owner follows the grievance route for exactly that case, heard by an independent third party whose decision stands." },
+        { "type": "p", "text": "Our work also puts you in front of strangers. Most people are fine. Some are not, and this part is for them. You are never required to absorb abuse. You may disengage from an abusive user immediately, mid-ticket or mid-queue, and hand the matter over or simply stop. No response-time target, queue metric or backlog ever outranks this, and walking away from abuse will never appear in any conversation about your work." },
+        { "type": "p", "text": "The company acts against abusive users on your behalf. You report it, in as few words as you like, and the follow-up is ours rather than yours. Prevention is also built into the product: users never see which staff member acted on their case or answered their ticket, because every user-facing surface shows SparkStream and never a name." },
+        { "type": "p", "text": "To report harassment of any kind, tell anyone senior to the person involved, or the owner, in writing or in conversation, whichever is easier in the moment. There is no form to fill in and no wrong door: a report made to the wrong person is passed to the right one, never bounced back. You hear the outcome in writing, and what you report is shared only with the people needed to act on it." },
+        { "type": "note", "text": "Treating somebody worse for reporting harassment, or for supporting somebody else's report, is victimisation, and it is itself a serious matter under the concerns and warnings section. A good-faith report that turns out to be mistaken is never a problem. The only report this section does not protect is one knowingly invented, which is a different act entirely. Having reported harassment appears in no reference, ever." }
+      ]
+    },
+    {
+      "id": "whistleblowing",
+      "title": "Speaking up about serious wrongdoing",
+      "content": [
+        { "type": "p", "text": "This company states its ethics as checkable things, and a checkable claim needs a protected way for somebody to say the check is failing. That is what this section is for: telling someone that something seriously wrong is happening, or being hidden, so it can be stopped. The law protects you when you do this whether or not any policy exists. What this adds is named routes, a promise about what happens next, and the statement in advance that raising a concern here will never be something you pay for." },
+        { "type": "p", "text": "A protected disclosure is a concern you reasonably believe is true, is in the public interest, and points at one of these: a crime, a breach of a legal obligation, a miscarriage of justice, danger to anyone's health or safety, damage to the environment, or the deliberate concealment of any of them. Concretely, here: user data being collected, read or shared in ways the Data Charter and our published policies do not allow, a safety failure towards the community the platform serves, money moving dishonestly, or anyone at any rank hiding one of those." },
+        { "type": "p", "text": "Something about your own working life, unfair treatment, a broken promise about your terms, a conflict, belongs in the grievance section instead, where it is taken just as seriously. This one is for wrongdoing bigger than any one person's situation." },
+        { "type": "p", "text": "Tell anyone senior to those involved, or the owner, in writing or in conversation. There is no form and no wrong door. You do not need proof in hand: a reasonable belief is the standard, and investigating is our job rather than yours. This company logs what its systems do on purpose, so many kinds of wrongdoing leave records that can be checked. Pointing at where to look is valuable, and you are not expected to have looked yourself." },
+        { "type": "p", "text": "In a company this small, the wrongdoing you have seen may involve the only person above you. Say so to nobody here and go outside: the law protects disclosures to prescribed regulators exactly as it protects internal ones, and you need nobody's permission first. For misuse of personal data, the Information Commissioner's Office. For danger to health or safety, the Health and Safety Executive. For anything, a solicitor, since disclosures made while getting legal advice are protected too. Those routes are named here on purpose, because a policy that only offers the owner's own door is not a whistleblowing policy." },
+        { "type": "ul", "items": [
+          "Your concern is acknowledged in writing, looked into by somebody not involved in it, and answered in writing, as fully as the confidentiality owed to other people allows",
+          "If it is substantiated, the wrong is stopped and put right, and you are told so rather than left to wonder",
+          "If it turns out you were mistaken, that changes nothing about how you are treated. A reasonable concern honestly raised is the system working, whichever way the answer comes out",
+          "Your identity is shared only with the people needed to investigate, and never with the people the concern is about unless a fair process makes it unavoidable, in which case you are told before it happens rather than after"
+        ] },
+        { "type": "p", "text": "You can raise a concern anonymously and it will still be looked into. The honest limits: an anonymous concern can be harder to investigate, nobody can update you, and the protections here are harder to apply to somebody we cannot identify. Confidential is stronger than anonymous, where you can bear it." },
+        { "type": "note", "text": "Dismissing or punishing somebody for a protected disclosure is unlawful from the first day of employment, with no qualifying period, and here it is also treated as a serious matter for whoever does the punishing. No contract, agreement or confidentiality clause we ever ask you to sign removes these rights, and one that tried would be void. That sentence is here so nobody has to go and check." }
       ]
     },
     {
@@ -306,14 +405,17 @@
       "title": "If you're ill",
       "content": [
         { "type": "p", "text": "Report sick from My Employment in the Staff Hub, under Sickness and absence. There is no approval step, because being ill is a notification, not a request. The moment you report it, your upcoming shifts are offered to the team for cover, admins are told, and you are done: rest." },
-        { "type": "p", "text": "Sick pay runs from day one. There are no unpaid waiting days here, whatever the law of the day allows. For the first six weeks of a sickness you are paid your full average earnings, worked out over your last eight normal weeks, the same as the first weeks of family leave. After that, the statutory rate applies for as long as the law provides. Payment itself goes through payroll." },
+        { "type": "p", "text": "Sick pay runs from day one. There are no unpaid waiting days here, whatever the law of the day allows. You are paid your full average earnings, worked out over your last eight normal weeks, the same basis as family leave, rather than the statutory rate. Full pay covers up to six weeks of sickness in any rolling twelve months, counted across all your absences in that year rather than starting again with each illness. Beyond the allowance, sickness is paid at the statutory rate for as long as the statutory scheme runs. Payment itself goes through payroll." },
+        { "type": "p", "text": "Where illness is evidenced, with a fit note or hospital or specialist documentation, an enhanced allowance applies: full pay extends to twelve weeks in the rolling year, followed by up to twelve further weeks at half pay, before the statutory rate takes over. What routes an absence to it is the evidence, not how long the absence is, so repeated short spells with hospital letters behind them draw on it exactly as one long absence does." },
+        { "type": "p", "text": "There is no discretion in this. The gate is the type of evidence, applied identically to everyone, so nobody has to plead their case or hope for sympathy. A rule that runs on sympathy is where unfairness lives, and it would be cruellest to exactly the people this exists for." },
         { "type": "p", "text": "You can self-certify for up to seven days. Past seven days we ask for a fit note from a doctor, which is the standard rule and the only paperwork involved." },
         { "type": "ul", "items": [
           "Your paid leave keeps building up while you are off sick, at your normal rhythm",
           "If you fall ill during booked annual leave, tell an admin: those days count as sick leave and the holiday hours are added back to your balance. The booking itself stays on your record and the correction sits beside it, so you can see both rather than one quietly replacing the other",
           "Nothing can be scheduled for you while a sickness is recorded, and you cannot pick up shifts either. Rest is the job"
         ] },
-        { "type": "note", "text": "When you are better, end the sickness from the same place you reported it. Nobody chases you while it is open." }
+        { "type": "note", "text": "When you are better, end the sickness from the same place you reported it. Nobody chases you while it is open." },
+        { "type": "note", "text": "Why there is a cap at all: a promise that could bankrupt the company protects nobody. The allowance is set so it is keepable for everyone at once, on the worst day. It bounds what the company can carry, and it is never a judgement about your illness." }
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
-  "version": "1.15.0",
-  "ackVersion": 16,
-  "effective": { "version": "1.15.0", "date": "16 September 2026" },
+  "version": "1.16.0",
+  "ackVersion": 17,
+  "effective": { "version": "1.16.0", "date": "16 September 2026" },
   "title": "SparkStream Staff Handbook",
   "intro": "How working at SparkStream actually operates: your standing on the team, duty and breaks, shifts and pay, the support and moderation queues, and what we hold about you. It describes practice rather than employment law. Where a section affects your pay or your contract, your contract is what governs.",
   "sections": [
@@ -148,6 +148,7 @@
       "title": "What you see, and what you do with it",
       "content": [
         { "type": "p", "text": "Working here gives you sight of things people did not choose to share with you personally: their tickets, their reports, their account history." },
+        { "type": "p", "text": "Users gave their data to the product, under promises the company published. They did not give it to you. You see the minimum your role needs, and you use it for the case in front of you." },
         { "type": "ul", "items": [
           "Never share what you see outside the team",
           "Never use it for anything other than resolving the thing in front of you",
@@ -155,7 +156,15 @@
           "Never use it for financial gain, yours or anyone else's"
         ] },
         { "type": "p", "text": "That last one binds the company as much as it binds you, and it is written here so you have something to point at. Nobody will ask you to use what you can see to make SparkStream money: not to find sales leads, not to decide what to charge, not to shape a pitch to a partner. Our income comes from people choosing to pay us, and never from what we happen to know about them. If you are ever asked to do otherwise, refusing is the right answer, and \"If something goes wrong\" tells you how to raise it." },
+        { "type": "p", "text": "Access is capability, not permission. Looking somebody up when you have no case for them is misuse even though your access technically allows it, and the tools allowing it is not the same as the job permitting it. If you are ever unsure whether a look is yours to take, that uncertainty is the answer: asking first costs nothing, and nobody here will ever criticise you for asking before touching." },
         { "type": "p", "text": "Some records are access logged, and you'll be told at the point of access when that's the case. That isn't suspicion of you; it's what lets us tell a person honestly who has seen their information." },
+        { "type": "p", "text": "Much of this is enforced by construction rather than by trust. Moderation queues show each case only to the people working it, and nobody decides a case they are part of. The Data Charter checkpoint refuses to transmit anything under a category it does not declare, whoever is asking. And the direct messages described below cannot be read by anyone here at all, which is not a rule anybody has to keep." },
+        { "type": "p", "text": "What you do is written down with its actor and its reason. That protects users from misuse, and it protects you in exactly the same way, because your correct actions are provable without your word being needed for them." },
+        { "type": "p", "text": "User data stays in the systems built to hold it. It is not exported to personal files, pasted into chats, screenshotted, or read out on a call beyond what the case in front of you needs. When you step away from your machine, it locks." },
+        { "type": "p", "text": "A user's identity gets the mirror of the respect yours gets. Users never see your name, by design; their names leave the tools just as rarely, and only ever inside systems that log the reason. Users are discussed by case, with the people working that case, and nowhere else: never in public channels, never in the community spaces we run, never as anecdotes, and never after you have left, because leaving takes your access with it but not your obligations." },
+        { "type": "note", "text": "A memorable case with the details filed off is still a user's story. The test is not whether they could be identified from it. It is whether the telling serves any case at all." },
+        { "type": "p", "text": "A mistake with user data, the wrong record opened, something sent to the wrong place, a device lost, anything you even suspect is a breach, is reported the same day, however small it feels. The law gives the company 72 hours to assess and report a breach, and your speed is most of that clock. An honest mistake reported by the person who made it is never punished, and the report is the system working. Concealing one is the serious act, and it is treated as one." },
+        { "type": "p", "text": "Nobody here quietly starts collecting something new, builds a feature that gathers what the Data Charter does not declare, or keeps a private copy of anything for later, however useful it would be. The charter is a ceiling with a public process for raising it, and that process is the only door. If your work genuinely needs data we do not collect, say so, and the need goes through the charter, with its notice periods, in front of the users it concerns. That is slower than simply taking it, and it is meant to be." },
         { "type": "note", "text": "Direct messages between users are end to end encrypted: nobody at SparkStream can read a conversation. Reporting is the one exception, and a narrow one. When someone reports a message, the app sends that message plus the five before it for context, and that bundle is readable by the moderation team. Nothing else in the conversation is, and there is no way to ask for more." }
       ]
     },

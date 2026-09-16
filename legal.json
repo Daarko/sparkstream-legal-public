@@ -1,8 +1,8 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "effective": {
-    "version": "0.15.0",
-    "date": "6 September 2026"
+    "version": "0.16.0",
+    "date": "1 October 2026"
   },
   "documents": [
     {
@@ -198,7 +198,11 @@
         },
         {
           "type": "p",
-          "text": "How this policy can change is governed by the Sovereign User Promise, which forms part of our agreement with you. No material change to how we collect or use your data takes effect until 14 days after we send you notice, and throughout that time you can download your data, delete your historic data, or delete your account. If anything in this policy conflicts with the Promise, the Promise applies, and any change to this policy that would weaken it is itself a material change under the Promise. You can read the Promise in full at sparkstreamapp.com/trust."
+          "text": "How this policy can change is governed by the Sovereign User Promise, which forms part of our agreement with you. No material change to how we collect or use your data takes effect until 14 days after we send you notice, and throughout that time you can download your data, delete your historic data, or delete your account. If anything in this policy conflicts with the Promise, the Promise applies, and any change to this policy that would weaken it is itself a material change under the Promise."
+        },
+        {
+          "type": "p",
+          "text": "This policy forms part of your agreement with SparkStream, together with the Terms of Service, the Sovereign User Promise, and the Service Level Agreement. The Promise sets the rules for how any of this can change, and the Service Level Agreement sets out the compensation we owe you if we break them. All four are published together at sparkstreamapp.com/trust."
         },
         {
           "type": "note",
@@ -212,7 +216,7 @@
       "content": [
         {
           "type": "p",
-          "text": "These terms are the agreement between you and SparkStream App Ltd, which we refer to here as SparkStream, for using the app and its services. To be upfront about who you are agreeing with: SparkStream App Ltd is a private limited company registered in England and Wales, company number 17328916, registered office 128 City Road, London, United Kingdom, EC1V 2NX. These terms are written in plain language on purpose. By using SparkStream you agree to them, so please read them. They work alongside the Privacy & Data Policy, which is part of this agreement."
+          "text": "These terms are the agreement between you and SparkStream App Ltd, which we refer to here as SparkStream, for using the app and its services. To be upfront about who you are agreeing with: SparkStream App Ltd is a private limited company registered in England and Wales, company number 17328916, registered office 128 City Road, London, United Kingdom, EC1V 2NX. These terms are written in plain language on purpose. By using SparkStream you agree to them, so please read them. They work alongside three documents that also form part of this agreement: the Privacy & Data Policy, which covers your data; the Sovereign User Promise, which sets the rules for how any of this can change; and the Service Level Agreement, which sets out what we owe you if we break those rules. Where any of them conflicts with these terms, the Sovereign User Promise applies first, then the Privacy & Data Policy on anything to do with your data. You can read all of them at sparkstreamapp.com/trust."
         },
         {
           "type": "h3",
@@ -245,6 +249,10 @@
         {
           "type": "p",
           "text": "Use SparkStream lawfully and in line with Twitch's own Terms of Service. You are responsible for the actions you set up, including scripts, programs, HTTP requests, and hotkeys that run on your machine. Do not use SparkStream to harass, harm, deceive, or defraud anyone. Do not attempt to break, overload, probe, or abuse the SparkStream server or its services, and do not try to access data that is not yours."
+        },
+        {
+          "type": "p",
+          "text": "Security testing carried out within our security policy at sparkstreamapp.com/security is an exception to the sentence above, and only to that sentence. Under that policy you may probe the service for flaws, and you may show that data belonging to another account can be reached. You still may not read, copy, change or delete that data, degrade the service for anybody else, or test in a way that disrupts a live stream. Showing that you could reach something is the finding. Reaching into it is not, and it takes you outside both that policy and this exception."
         },
         {
           "type": "h3",
@@ -303,6 +311,10 @@
           "text": "SparkStream, including its name, design, and original content and features, belongs to SparkStream App Ltd. You may not copy, modify, redistribute, or reverse engineer the app except where the law expressly allows it."
         },
         {
+          "type": "p",
+          "text": "There is one further exception, and we give it deliberately. Our security policy, published at sparkstreamapp.com/security, gives you permission to take the app apart on your own machine for the single purpose of finding and reporting a security flaw in it, on the terms set out there. That permission is granted under this section and forms part of this agreement to the extent that it grants it. Nothing else on that page forms part of these terms. It does not allow you to publish, redistribute, or reuse anything you find inside the app, and every other restriction in this section continues to apply."
+        },
+        {
           "type": "h3",
           "text": "12. No warranty"
         },
@@ -329,6 +341,10 @@
         {
           "type": "p",
           "text": "To the maximum extent the law allows otherwise, SparkStream's total liability for any claim arising from your use of the app is limited to what you paid for your current billing period, or 10 pounds, whichever is greater. SparkStream is not liable for indirect, incidental, or consequential losses."
+        },
+        {
+          "type": "p",
+          "text": "This limit does not apply to the Service Level Agreement. If we let a material change take effect before the 14 days the Sovereign User Promise requires have passed, or begin or expand the collection or use of your data without first giving the notice it requires, the compensation set out in the Service Level Agreement is payable in full to each affected user, and nothing in this section reduces, caps, or excludes it. That exception is deliberate. A cap that could cancel out what we owe for breaking our own notice rules would leave the Promise worth less than it says."
         },
         {
           "type": "h3",
